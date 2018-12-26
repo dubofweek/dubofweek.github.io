@@ -280,6 +280,9 @@ h3 {
 	display: flex;
     justify-content: space-between;
 }
+.circle, .unstyled, .ordered {
+	padding-bottom: 10px;
+}
 .right-sidebar_table-block table {
 	font-size: 12px;
 	width: 100%;
