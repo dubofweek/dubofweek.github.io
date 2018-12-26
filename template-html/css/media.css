@@ -1,0 +1,224 @@
+/* mobile-phone iPhone XS max horizontal */
+@media screen and (max-width: 980px) {
+	.top-line_logo {
+		padding: 0 6px;
+	} 
+	.head-slider_items {
+		height: 218px;
+	}
+	.head-menu ul {
+		float: unset;
+	}
+	.left-sidebar_contact-form {
+		width: 100%;
+	}
+	.left-sidebar_contact-form button{
+		overflow: hidden;
+	}
+}
+/* mobile-phone iPhone XS horizontal */
+@media screen and (max-width: 826px) {
+	#left-sidebar {
+		float: unset;
+		margin: 0 auto;
+	}
+	#right-sidebar {
+		float: unset;
+		margin: 0 auto;
+	}
+	.left-sidebar_contact-form {
+		float: left;
+		width: 240px;
+	}
+	.footer-title:after {
+		display: none;
+	}
+	.left-sidebar_headline-block {
+		width: 240px;
+	}
+
+}
+/* mobile-phone iPhone 6/7/8 plus horizontal */
+@media screen and (max-width: 736px) {
+	.top-line_logo {
+		padding: 0 6px;
+	}
+	.head-slider_items-block {
+		width: 100%;
+	}
+	.head-slider_items-text p {
+		width: 80%;
+	}
+	.footer-title:after {
+		display: none;
+	}
+	.left-sidebar_headline-block {
+		width: 240px;
+	}
+	#left-sidebar {
+    width: 30%;
+	}
+}
+/* mobile-phone iPhone 5/SE horizontal */
+@media screen and (max-width: 666px) {
+	.head-menu ul li {
+		margin-left: 15px;
+		padding: 0 4px;
+	}
+	.left-sidebar_headline-block {
+		width: 240px;
+	}
+	.top-line_searching-line {
+		padding: 5px;
+	}
+}
+@media screen and (max-width: 594px) {
+	.top-line_searching-line {
+		max-width: 250px;
+	}
+	.top-line_logo {
+		padding: 0 6px;
+	}
+	.head-slider_items {
+		overflow: scroll;
+	}
+	.left-sidebar_headline-block {
+		width: 240px;
+	}
+	.head-menu ul li {
+		margin-left: 10px;
+		padding: 0 4px;
+	}
+	.footer-items {
+		font-size: 8px;
+	}
+	#left-sidebar {
+    width: 36%;
+	}
+	.footer-items_adress a {
+		font-size: 8px;
+	}
+}
+/* mobile-pohone iPhone 6/7/8 */
+@media screen and (max-width: 458px) {
+	.top-line_logo {
+		padding: 0 6px;
+	}
+	.top-line_searching-line {
+		max-width: 200px;
+	}
+	.top-line_searching-line input {
+		max-width: 150px;
+	}
+	.head-slider_items-text {
+			width: 100%;
+		}
+	.head-slider_items-block {
+		padding: 10px 10px;
+	}
+	.head-slider_items {
+		overflow: scroll;
+	}
+	.left-sidebar_headline-block {
+		width: 240px;
+	}
+	.right-sidebar_table-block {
+		overflow: auto;
+	}
+	.footer-items {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.footer-items h5{
+		width: 200px;
+	}
+	.head-menu ul li {
+		margin-left: 2px;
+		padding: 0 4px;
+	}
+	.head-menu ul li a{
+		font-size: 10px;
+		text-transform: lowercase;
+	}
+	.left-sidebar_contact-form form {
+		margin: 0 auto;
+	}
+	#left-sidebar {
+   		 width: 60%;
+   		 margin: 0 auto;
+	}
+	.right-sidebar_table:after {
+		content: "\f0b2";
+		font-family: "Font Awesome 5 Free";	
+		font-weight: 900;
+		position: absolute;
+		width: 15px;
+		left: 50%;
+	}
+	.footer-items_work-hours, .footer-items_local, .footer-items_adress {
+		max-width: 100%;
+	    margin-bottom: 10px;
+	}
+}
+/* mobile-pohone iPhone 6/7/8 */
+@media screen and (max-width: 414px) {
+	.top-line_logo {
+		padding: 0 6px;
+	}
+	.top-line_searching-line input {
+		max-width: 125px;
+	}
+	.head-slider_items-text {
+			width: 100%;
+	}
+	.block-items {
+		margin-bottom: 0;
+	}
+	.block-items p {
+		display: none;
+	}
+	.head-slider_items {
+		overflow: scroll;
+	}
+	.left-sidebar_headline-block {
+	    width: 84%;
+	}
+	.left-sidebar_contact-form form {
+		margin-left: 0;
+		  margin-right: 30px;
+	}
+}
+/* mobile-pohone iPhone 5/SE */
+@media screen and (max-width: 320px) {
+	.top-line_searching-line {
+		float: unset;
+	}
+	.top-line_logo {
+		float: unset;
+		padding: 5px 15px;
+	}
+	.head-slider_items-text {
+		width: 100%;
+	}
+	.block-items {
+		margin-bottom: 0;
+	}
+	.head-slider_items {
+		overflow: scroll;
+	}
+	.right-sidebar_table {
+		margin-left: 13px;
+	}
+	.left-sidebar_contact-form form {
+		margin-left: 0;
+		  margin-right: 30px;
+	}
+	.footer-items {
+		font-size: 8px;
+	}
+	.footer-items_work-hours, .footer-items_local, .footer-items_adress {
+		max-width: 100%;
+	}
+}
