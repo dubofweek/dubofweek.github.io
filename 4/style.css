@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+}
+
+.main-section {
+  margin-top: 150px;
+}
+
+.site-title .title {
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.features-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features-list .features-item {
+  width: 400px;
+}
+
+.features-item {
+  margin-bottom: 20px;
+}
+
+.features-item .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features-item .featurelogo {
+  font-size: 30px;
+  color: white;
+  background: #1c7a99;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.features-item .wrapper {
+  margin-left: 15px;
+}
+
+.features-item .title {
+  color: #1c7a99;
+  font-weight: 800;
+}
+
+.features-item .decription {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.features-item .fa-html5,
+.features-item .fa-font {
+  padding: 8px 12px;
+}
+
+._container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
