@@ -1,0 +1,336 @@
+
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+
+.ishome
+	.site-header
+		min-height: 700px
+		height: 100vh
+		background-color: $accent
+
+section, header
+	position: relative
+	background-size: cover
+	background-position: center
+
+section
+	background-color: #fff
+
+.top-line
+	padding-top: 30px
+	position: relative
+
+.top-line_logo a 
+	display: block
+	position: absolute
+	right: 45%
+	z-index: 2
+
+
+.top-line_logo img 
+	max-width: 100%
+
+.top-line_phone
+	float: right
+	
+
+.top-line_menu
+	background-color: #bfc3d1
+	opacity: .8
+	margin-top: 28px
+
+.top-line_menu nav
+	text-align: center
+
+
+.top-line_menu li
+	display: inline
+	margin: 75px
+
+.soc-buttons 
+	float: right
+	font-size: 30px
+
+.soc-buttons a:first-child 
+	display: none
+.soc-buttons_btn
+	display: none
+	background-color: #414f7e
+	border-radius: 5px
+	padding: 15px 30px
+.soc-buttons_btn a
+	color:#fff
+.soc-buttons_btn i 
+	padding: 0 10px
+
+.header-composit h1, p
+	color: #fff
+	margin: 0
+
+.button
+	color: #fff
+	border: 1px solid #fff
+	border-radius: 5px
+	padding: 15px 35px
+	background-color: transparent
+	margin-top: 50px
+
+.main-section
+	background-color: #e6f1fa
+.header-flex
+	display: flex
+	height: 100%
+	position: relative
+	top: 0
+
+.flex-center
+	margin: 0 auto
+
+.header-composit
+	text-align: center
+	position: relative
+	margin-top: 150px
+.logo
+	text-align: center
+	margin-top: 70px
+
+.text p 
+	color: #000
+	margin-bottom: 10px
+.gallery
+	min-height: 700px
+.header-composit_button
+	display: none
+	margin-top: 250px
+
+.header-composit_button a
+	color: #fff
+.header-composit_button li
+	list-style-type: none
+	display: inline-block
+	font-size: 12px
+	background-color: #65a9df
+	border-radius: 5px
+	text-align: center
+	width: 100px
+	padding: 10px 0
+.header-composit_button i
+	display: block
+	text-align: center
+	font-size: 2em
+.flex-direct 
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+.flex-direct img 
+	padding: 10px 10px
+	max-width: 100%
+.left-column 	
+	text-align: center
+.left-column img 
+	height: 200px
+.left-column-buttons 
+	display: none
+	text-align: center
+.left-column-buttons a	
+	color: #fff
+.left-column-buttons li
+	list-style-type: none
+	display: inline-block
+	font-size: 12px
+	background-color: #65a9df
+	text-align: center
+	width: 130px
+	padding: 10px 0
+.left-column-buttons i
+	display: block
+	text-align: center
+	font-size: 2em
+.right-column p
+	color: #000
+.right-column
+	max-width: 100%
+	max-height: 100%	
+.how-work
+	font-size: 12px
+	margin-top: 40px
+.how-work img 
+	width: 250px
+	margin-top: 50px
+.how-work p 
+	margin-bottom: 10px
+.how-work span
+	font-weight: 900
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+.fotorama h3
+	text-align: center
+.text-center
+	text-align: center
+.reviews p
+	color: #000
+.owl-carousel .owl-item img
+	max-width: 200px
+.owl-item .active 
+	width: 250px
+
+.owl-nav 
+	display: block
+	position: absolute
+	top: 50%
+	width: 100%
+.carousel-reviews
+	color: #fff	
+	text-align: center
+.carousel-reviews p
+	color: #fff
+	width: 60%	
+	margin: 0 auto
+	
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot
+	color: #fff
+.owl-nav button.owl-next span
+	position: absolute
+	right: 30px
+	top: 0
+.owl-nav button.owl-prev span
+	position: absolute
+	left: 30px
+	top: 0
+	z-index: 16
+.flexing
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+.flexing img 
+	padding: 20px 25px
+	max-width: 100%
+.location img
+	background-repeat: no-repeat
+	background-image: cover
+	max-width: 100%
+.location-form
+	display: none
+	text-align: center
+.location-form p 
+	padding: 20px 0
+	color: #000	
+.footer-content
+	background: url(img/footer-bg.jpg)
+	max-width: 100%
+	background-repeat: no-repeat
+	background-image: cover
+.footer-town
+	margin-top: -150px
+	max-width: 100%
+.footer-town img
+	max-width: 100%
+	min-height: 200px
+	margin-top: -150px
+.footer-form
+	background-color: #fff
+	width: 25%
+	margin-top: -200px
+.footer-form form 
+	text-align: center
+.footer-form p
+	color: #000
+	text-align: center
+	margin-bottom: 30px
+	padding-top: 30px
+.btn button
+	background-color: $accent
+	padding: 10px 25px
+	margin-bottom: 30px
+	width: 80%
+	color: #fff
+	border: 1px solid black
+	border-radius: 5px
+
+.footer-soc--buttons i
+	color: #fff
+input, select, textarea
+ margin-bottom: 30px
+ padding: 5px 20px
+ width: 80%
+ border: 1px solid black
+ border-radius: 5px
+.left-col_item 
+	color: #fff
+.left-col_item li
+	list-style-type: none
+.left-col_item a
+	color: #fff
+.right-col_item
+	text-align: right
+.right-col_item p
+	margin-bottom: 15px
+.mobile-footer
+	background: url(img/footer-bg.jpg)
+	display: none
+.mobile-footer--nav
+	text-align: center
+.mobile-footer--title span
+	color: #fff
+.mobile-footer--title img	
+	width: 70px
+
+.mobile-footer--nav	li
+	list-style-type: none
+	display: inline-block
+	text-align: center
+	margin-right: 20px
+.mobile-footer--nav a
+	text-align: center
+	color: #fff
+::selection
+	background-color: $accent
+	color: #fff
+
+@import "media" // Всегда в конце
