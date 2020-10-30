@@ -3,8 +3,7 @@
     &__wrapper {
         min-height: 472px;
         padding: 172px 0;
-        background: url('../../img/main-bg.jpg') center center/cover no-repeat;
-        text-align: center;
+        background: url('../img/main-bg.jpg') center (center/cover) no-repeat;
     }
     &__header {
         display: block;
@@ -21,5 +20,6 @@
         line-height: 28px;
         color: #FFFFFF;
         margin-top: 16px;
+        text-align: center;
     }
 }
