@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        width: 264px;
+        padding: 16px 0;
+        img {
+            width: 100%;
+        }
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        list-style-type: none;
+            :last-child {
+                padding-right: 0;
+            }
+        &__item {
+            padding-right: 40px;     
+        }
+        &__link {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            color: #121212;
+        }
+    }
+}
