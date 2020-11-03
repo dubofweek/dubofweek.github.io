@@ -21,9 +21,14 @@
         &__item {
             padding-right: 40px;
             a {
+                color: $secondary-color;
+                transition: .3s linear;
                 text-decoration: none;
                 cursor: pointer;
-            }    
+            }
+            a:hover {
+                color: $main-color;
+            }
         }
         &__link {
             font-style: normal;
