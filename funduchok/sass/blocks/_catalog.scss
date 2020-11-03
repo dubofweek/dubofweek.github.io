@@ -1,11 +1,8 @@
 .catalog {
-    min-height: 580px;
+    min-height: 510px;
     &__wrapper {
         display: flex;
         justify-content: space-between;
-    }
-    &__description {
-
     }
     &__header {
         font-style: normal;
@@ -32,15 +29,11 @@
         font-size: 16px;
         padding-left: 15px;
         margin-bottom: 15px;
-        border-left: 2px solid $main-color;
+        border-left: 2px solid $green-color;
     }
     &__list {
         padding: 0;
         list-style: none;
-    }
-    &__list a:before {
-        content: "\2014";
-        margin-right: 14px;
     }
     &__list a {
         text-decoration: none;
@@ -53,7 +46,7 @@
         transition: .3s linear;
     }
     a:hover {
-        color: $main-color;
+        color: $hover-color;
     }
   }
   

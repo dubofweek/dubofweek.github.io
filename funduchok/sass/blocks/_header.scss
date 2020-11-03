@@ -21,13 +21,13 @@
         &__item {
             padding-right: 40px;
             a {
-                color: $secondary-color;
+                color: $black-color;
                 transition: .3s linear;
                 text-decoration: none;
                 cursor: pointer;
             }
             a:hover {
-                color: $main-color;
+                color: $hover-color;
             }
         }
         &__link {
@@ -35,7 +35,6 @@
             font-weight: bold;
             font-size: 16px;
             line-height: 19px;
-            color: #121212;
         }
     }
 }
