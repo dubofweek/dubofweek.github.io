@@ -19,7 +19,11 @@
                 padding-right: 0;
             }
         &__item {
-            padding-right: 40px;     
+            padding-right: 40px;
+            a {
+                text-decoration: none;
+                cursor: pointer;
+            }    
         }
         &__link {
             font-style: normal;
