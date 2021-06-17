@@ -1,0 +1,9 @@
+git init
+git config --global user.name "reddev"
+git config --global user.email dubofweek@gmail.com
+git status
+git add -A
+git commit -a -m"first commit"
+git logo
+git remote add origin https://github.com/dubofweek/testproject.git
+git push -u origin main
