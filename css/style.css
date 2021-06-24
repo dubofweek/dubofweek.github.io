@@ -773,6 +773,7 @@ header {
 }
 .promo__content img {
   width: 100%;
+  padding: 0 6px;
 }
 
 .new {
@@ -853,11 +854,11 @@ header {
 .videos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: -10px -5px;
 }
 
 .video {
-  max-width: 365px;
+  width: 25%;
   padding: 10px 5px;
 }
 .video a {
@@ -1032,6 +1033,7 @@ header {
 }
 .promo-foot__content img {
   width: 100%;
+  padding: 0 6px;
 }
 
 footer {
