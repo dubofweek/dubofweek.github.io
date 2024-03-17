@@ -6393,6 +6393,10 @@ a.navbar-item.is-active,
     font-weight: bold
 }
 
+.color-link {
+    color: #991F38;
+}
+
 @media screen and (max-width: 1023px) {
     .navbar-item.has-dropdown .navbar-dropdown {
         display: none
