@@ -37,45 +37,45 @@ window.addEventListener('load', function () {
 })
 
 
-var nextPage = 2,
-totalPages = document.getElementById("total-pages"),
-loadMoreButton = document.getElementById("load-more-button"),
-loadMoreUrl = loadMoreButton ? loadMoreButton.dataset.url : null;
-let isLoading = !1,
-loadedPages = [];
-function initPhotosPage() {
-    function e() {
-        let e = document.getElementById("footer") ? document.getElementById("footer").offsetHeight : 0;
-        window.innerHeight + window.scrollY >= document.body.offsetHeight - 600 - e && (isLoading || loadedPages.includes(nextPage) || (loadedPages.push(nextPage), isLoading = !0, fetch(loadMoreUrl.replace("0", nextPage)).then(e => e.text()).then(e => {
-            if ("" === e.trim()) {
-                isLoading = !1;
-                return
-            } (function e(t) {
-                let o = document.createElement("div");
-                o.innerHTML = t;
-                let n = Array.from(o.childNodes),
-                a = document.querySelector("#photo-container");
-                a && n.forEach(e => {
-                    a.appendChild(e)
-                })
-            })(e),
-            nextPage++,
-            isLoading = !1
-        }).
-        catch(e => {
-            console.error("Error loading more photos:", e),
-            isLoading = !1
-        })))
-    }
-    window.addEventListener("scroll", e, {
-        passive: !0
-    }),
-    window.addEventListener("beforeunload", () => {
-        window.removeEventListener("scroll", e, {
-            passive: !0
-        })
-    })
-}
-window.addEventListener("load", function() {
-    document.getElementById("photos-page-js") && initPhotosPage()
-});
+// var nextPage = 2,
+// totalPages = document.getElementById("total-pages"),
+// loadMoreButton = document.getElementById("load-more-button"),
+// loadMoreUrl = loadMoreButton ? loadMoreButton.dataset.url : null;
+// let isLoading = !1,
+// loadedPages = [];
+// function initPhotosPage() {
+//     function e() {
+//         let e = document.getElementById("footer") ? document.getElementById("footer").offsetHeight : 0;
+//         window.innerHeight + window.scrollY >= document.body.offsetHeight - 600 - e && (isLoading || loadedPages.includes(nextPage) || (loadedPages.push(nextPage), isLoading = !0, fetch(loadMoreUrl.replace("0", nextPage)).then(e => e.text()).then(e => {
+//             if ("" === e.trim()) {
+//                 isLoading = !1;
+//                 return
+//             } (function e(t) {
+//                 let o = document.createElement("div");
+//                 o.innerHTML = t;
+//                 let n = Array.from(o.childNodes),
+//                 a = document.querySelector("#photo-container");
+//                 a && n.forEach(e => {
+//                     a.appendChild(e)
+//                 })
+//             })(e),
+//             nextPage++,
+//             isLoading = !1
+//         }).
+//         catch(e => {
+//             console.error("Error loading more photos:", e),
+//             isLoading = !1
+//         })))
+//     }
+//     window.addEventListener("scroll", e, {
+//         passive: !0
+//     }),
+//     window.addEventListener("beforeunload", () => {
+//         window.removeEventListener("scroll", e, {
+//             passive: !0
+//         })
+//     })
+// }
+// window.addEventListener("load", function() {
+//     document.getElementById("photos-page-js") && initPhotosPage()
+// });
