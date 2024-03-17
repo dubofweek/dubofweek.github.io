@@ -6395,6 +6395,10 @@ a.navbar-item.is-active,
 
 .color-link {
     color: #991F38;
+    font-weight: 600;
+}
+.color-link:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1023px) {
