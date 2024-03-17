@@ -6393,10 +6393,10 @@ a.navbar-item.is-active,
     font-weight: bold
 }
 
-/* .color-link {
+.color-link {
     color: #991F38;
     font-weight: 600;
-} */
+}
 .color-link:hover {
     text-decoration: underline;
 }
