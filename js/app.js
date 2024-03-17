@@ -1,14 +1,4 @@
 window.addEventListener('load', function () {
-
-    var intervalID = window.setInterval(myCallback, 10000);
-    function myCallback() {
-        var loImages = document.getElementsByClassName('js-img-to-reload');
-        for (i = 0; i < loImages.length; i++) {
-            var childDiv = loImages[i];
-            loImages[i].src = loImages[i].src + '?' + new Date().getTime()
-        }
-    }
-
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
     var $navbarDropdowns = Array.prototype.slice.call(document.querySelectorAll('.navbar-item.has-dropdown'), 0);
