@@ -1,0 +1,2769 @@
+#StaffLinks .prevUsernamesSection {
+  background: #f7ff00;
+  background: rgba(247, 255, 0, 0.23);
+  color: #503d08; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+/* Note this is a theme file -- Only color css allowed here! */
+.darkmode .BioContents .bioHeader, .darkmode #tabs_content_container .bioHeader, .darkmode .psContainer .bioHeader {
+  color: #FFFFFF; }
+
+.BioContents .tokenText, #tabs_content_container .tokenText, .psContainer .tokenText {
+  color: #ffffff; }
+
+.darkmode .BioContents a, .darkmode #tabs_content_container a, .darkmode .psContainer a {
+  color: #68B5F0; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+.darkmode #PhotoVideos:focus {
+  outline: none; }
+
+.darkmode #PhotoVideos .title {
+  color: #FFFFFF; }
+
+#PhotoVideos .link,
+#PhotoVideos .showMoreText {
+  color: #0A5A83; }
+  .darkmode #PhotoVideos .link, .darkmode #PhotoVideos .showMoreText {
+    color: #68B5F0; }
+
+#PhotoVideos .createdAt {
+  color: #555555; }
+  .darkmode #PhotoVideos .createdAt {
+    color: #B3B3B3; }
+
+#PhotoVideos .buttonBorder {
+  border-color: #000000; }
+  #PhotoVideos .buttonBorder.rgba {
+    border-color: rgba(0, 0, 0, 0.35); }
+
+#PhotoVideos .buttonBgColor {
+  background-color: #488839; }
+  #PhotoVideos .buttonBgColor.gradient {
+    background: linear-gradient(#57A863 26.52%, #488839 75.14%); }
+  #PhotoVideos .buttonBgColor.grey {
+    background-color: #8B8B8B; }
+    #PhotoVideos .buttonBgColor.grey.gradient {
+      background: linear-gradient(#A9A9A9 29.7%, #8B8B8B 70.67%); }
+
+#PhotoVideos .lockOverlayBg {
+  background-color: #333333; }
+  #PhotoVideos .lockOverlayBg.rgba {
+    background-color: rgba(0, 0, 0, 0.7); }
+
+#PhotoVideos .previewText {
+  color: white; }
+
+#PhotoVideos .errorMessage {
+  color: #000000;
+  background-color: #ffd0b8;
+  border-color: #cccccc; }
+
+#PhotoVideos .videoProcessing {
+  color: red; }
+
+#PhotoVideos .purchasedBadge {
+  color: #ffffff;
+  background-color: #6d85b5; }
+
+#PhotoVideos .popoutIcon {
+  background: url(../../tsdefaultassets/popout.svg?fa74da7e69d7) no-repeat center; }
+  .darkmode #PhotoVideos .popoutIcon {
+    background: url(../../tsdefaultassets/popout_darkmode.svg?4ed4b17ed080) no-repeat center; }
+
+.darkmode #PhotoVideos #broadcaster_links a, .darkmode #PhotoVideos #staff_links a {
+  color: #68B5F0; }
+
+#PhotoVideos .psToggleSort {
+  color: #306A91; }
+  .darkmode #PhotoVideos .psToggleSort {
+    color: #68B5F0; }
+
+#PhotoVideos .psDropDownArrow {
+  width: 10px;
+  height: 7px;
+  padding-left: 2px;
+  padding-bottom: 3px;
+  margin-left: 4px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center;
+  background-image: url(../../tsdefaultassets/arrowdown_blue.svg?ac299e35c90a); }
+  .darkmode #PhotoVideos .psDropDownArrow {
+    background-image: url(../../tsdefaultassets/darkmode_arrowdown_blue.svg?4c0f9c6565ba); }
+
+.darkmode .psSortingDropdown .psSortingContainer {
+  background: #222429; }
+
+.psSortingDropdown .psSortingContainer .psSortingOption {
+  background: #fff;
+  color: #525252; }
+  .darkmode .psSortingDropdown .psSortingContainer .psSortingOption {
+    background: #222429;
+    color: #B3B3B3; }
+
+.psSortingDropdown .psSortingContainer .psSortingOption:hover {
+  background: #FCEADC; }
+  .darkmode .psSortingDropdown .psSortingContainer .psSortingOption:hover {
+    background: #303A42; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+.darkmode #shareTab .title {
+  color: #FFFFFF; }
+
+#shareTab .urlInput {
+  border-color: #b1b1b1; }
+  #shareTab .urlInput:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode #shareTab .urlInput:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode #shareTab .urlInput:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode #shareTab .urlInput:is(select) {
+    background-color: #202C39; }
+    .darkmode #shareTab .urlInput:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .darkmode #shareTab .urlInput {
+    border-color: #6E6F70;
+    background-color: #202C39;
+    color: #ffffff; }
+
+.darkmode .appsTab a {
+  color: #68B5F0; }
+
+.appsTab .table {
+  border-color: #E0E0E0; }
+  .darkmode .appsTab .table {
+    border-color: #2D3E50; }
+
+.appsTab .header {
+  background-color: #C9C9C9; }
+  .darkmode .appsTab .header {
+    color: #FFFFFF;
+    background-color: grey; }
+
+.appsTab .noneSelected {
+  color: #808080; }
+  .darkmode .appsTab .noneSelected {
+    color: #B3B3B3; }
+
+.appsTab .deactivate {
+  color: #af0000; }
+  .darkmode .appsTab .deactivate {
+    color: #FE3D39; }
+
+.appsTab .orText {
+  color: #dc5500; }
+
+.appsTab .row:hover td {
+  background-color: rgba(128, 128, 128, 0.2); }
+
+.appCollection .sort {
+  color: #808285; }
+  .darkmode .appCollection .sort {
+    color: #B3B3B3; }
+
+.appCollection .clearSearchButton {
+  background: url(../../images/asp/close.svg?37f41bd2d69f); }
+
+.appCollection .searchInput::-webkit-search-cancel-button {
+  -webkit-appearance: none; }
+
+.appCollection .aspCard, .appCollection .featuredCard {
+  border: 1px solid #EBECEC; }
+  .appCollection .aspCard .summary, .appCollection .featuredCard .summary {
+    color: #606367; }
+    .darkmode .appCollection .aspCard .summary, .darkmode .appCollection .featuredCard .summary {
+      color: #B3B3B3; }
+  .appCollection .aspCard .author, .appCollection .featuredCard .author {
+    color: #808080; }
+    .darkmode .appCollection .aspCard .author, .darkmode .appCollection .featuredCard .author {
+      color: #888888; }
+
+.appCollection .featuredCard {
+  background-color: #FFFFFF; }
+  .darkmode .appCollection .featuredCard {
+    background-color: inherit; }
+  .appCollection .featuredCard.highlight {
+    background-color: #F8F9FA; }
+    .darkmode .appCollection .featuredCard.highlight {
+      background-color: #17202A; }
+  .appCollection .featuredCard .textHighlight {
+    color: blue; }
+    .darkmode .appCollection .featuredCard .textHighlight {
+      color: #68B5F0; }
+
+.appCollection .aspPagination {
+  color: #525252;
+  border-color: #ACACAC; }
+  .appCollection .aspPagination .pageBtn {
+    border: 1px solid #A7A7A7;
+    background-color: #FFFFFF; }
+  .appCollection .aspPagination .highlight {
+    background-color: #C9C9C9; }
+
+.darkmode .appPage a {
+  color: #68B5F0; }
+
+.appPage .container {
+  background-color: #F8F9FA;
+  border: 1px solid #EBECEC; }
+  .darkmode .appPage .container {
+    background-color: #1C2733;
+    border: none; }
+
+.appPage .back {
+  background: url(../../images/asp/arrowleft.svg?aa693bd28022) no-repeat center; }
+
+.appPage .subText, .appPage .description {
+  color: #606367; }
+  .darkmode .appPage .subText, .darkmode .appPage .description {
+    color: #888888; }
+
+.appPage .description {
+  background-color: #FFFFFF; }
+  .darkmode .appPage .description {
+    background-color: #000000; }
+
+.appPage .appForm {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF; }
+  .darkmode .appPage .appForm {
+    background-color: #202C39;
+    border: none; }
+  .appPage .appForm .chevronDown {
+    background: url(../../images/asp/chevron_down.svg?f730e78ee68d) no-repeat center; }
+  .appPage .appForm .chevronUp {
+    background: url(../../images/asp/chevron_up.svg?672bc569c6e9) no-repeat center; }
+
+.appPage .formError {
+  color: #FF0000; }
+  .darkmode .appPage .formError {
+    color: #FFA6A6; }
+
+.appPage .footer {
+  background-color: #E5E5E5; }
+  .darkmode .appPage .footer {
+    background-color: #253543; }
+
+.aspPanel {
+  border-color: #E0E0E0; }
+  .darkmode .aspPanel {
+    border-color: #2D3E50; }
+  .aspPanel .header {
+    color: #FFFFFF;
+    background-color: #2E698F; }
+    .darkmode .aspPanel .header {
+      background-color: #2E698F; }
+  .aspPanel .headerBadge {
+    color: #3E688C;
+    background-color: #FFFFFF; }
+    .darkmode .aspPanel .headerBadge {
+      color: #68B5F0;
+      background-color: #2B3856; }
+  .aspPanel .notice {
+    background-color: #FFF7D9;
+    border: 1px solid #D8A217; }
+    .darkmode .aspPanel .notice {
+      background-color: #1C2733;
+      border: 1px solid #2D3E50; }
+  .aspPanel .activeStatus {
+    color: #005B14; }
+    .darkmode .aspPanel .activeStatus {
+      color: #90EE90; }
+  .aspPanel .row:hover td {
+    background-color: rgba(128, 128, 128, 0.2); }
+
+.darkmode .GamesTab a {
+  color: #68B5F0; }
+
+.GamesTab .deactivate {
+  color: #af0000; }
+  .darkmode .GamesTab .deactivate {
+    color: #FE3D39; }
+
+.GamesTab .orText {
+  color: #dc5500; }
+
+.GamesTab .tabSection {
+  border: 1px solid #EFEFEF; }
+  .darkmode .GamesTab .tabSection {
+    border: none; }
+
+.OBSBroadcastInfo input#obs_token {
+  border: none;
+  width: 90%;
+  text-align: center;
+  color: #7F7F7F; }
+
+.OBSBroadcastInfo .infoOverlay {
+  background-color: #000000; }
+
+.OBSBroadcastInfo #obs_broadcast_info {
+  color: #7F7F7F;
+  background-color: #FFFFFF;
+  border-color: #CCCCCC; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info {
+    color: #B3B3B3;
+    background-color: #1C2733;
+    border-color: #17202A; }
+  .OBSBroadcastInfo #obs_broadcast_info .supportLink {
+    color: #0a5a83; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .supportLink {
+      color: #68B5F0; }
+  .OBSBroadcastInfo #obs_broadcast_info .warning {
+    color: #0a5a83; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .warning {
+      color: #68B5F0; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll {
+    border-color: #6E6F70; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll hr {
+    border-color: #6E6F70; }
+  .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue {
+    background-color: transparent; }
+    .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:is(select) {
+      background-color: #202C39; }
+      .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue {
+      color: #B3B3B3; }
+      .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:focus {
+        color: #FFFFFF; }
+  .OBSBroadcastInfo #obs_broadcast_info .scroll .rtmpUrl {
+    color: #0b5d81; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .rtmpUrl {
+      color: #68B5F0; }
+  .OBSBroadcastInfo #obs_broadcast_info .button:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .button:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .button:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .button:is(select) {
+    background-color: #202C39; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .button:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .OBSBroadcastInfo #obs_broadcast_info .button, .darkmode .OBSBroadcastInfo #obs_broadcast_info .button {
+    background-color: #F47321;
+    color: #FFFFFF;
+    border: 1px solid #CD5D26;
+    border-radius: 4px; }
+
+.GameInfoBar {
+  color: #49494F;
+  background-color: white; }
+  .GameInfoBar .gameImage {
+    border-right: solid 1px #EFEFEF; }
+  .GameInfoBar .stopStreamingButton {
+    border: 1px solid #49494F; }
+  .darkmode .GameInfoBar {
+    color: #B3B3B3;
+    background-color: #2A2C2E; }
+    .darkmode .GameInfoBar a {
+      color: #68B5F0; }
+    .darkmode .GameInfoBar .gameImage {
+      border-right: solid 1px #666666; }
+    .darkmode .GameInfoBar .stopStreamingButton {
+      border: 1px solid #B3B3B3; }
+
+.darkmode .OBSInfoSection a {
+  color: #68B5F0; }
+
+.GameSelection {
+  background-color: white;
+  color: #49494F; }
+  .GameSelection .searchBar {
+    border: 1px solid #ACACAC; }
+  .GameSelection .title {
+    color: #272F35; }
+  .GameSelection .selectGameButton {
+    border: 1px solid #49494F; }
+  .darkmode .GameSelection {
+    background-color: #202223;
+    color: #B3B3B3;
+    border: 1px solid #2e3137; }
+    .darkmode .GameSelection .searchBar {
+      border: 1px solid #2e3137; }
+      .darkmode .GameSelection .searchBar input[type=text] {
+        background-color: inherit;
+        color: inherit; }
+    .darkmode .GameSelection .title {
+      color: white; }
+    .darkmode .GameSelection .selectGameButton {
+      border: 1px solid #B3B3B3; }
+
+.darkmode .TokenStatsTab {
+  color: #B3B3B3; }
+
+.TokenStatsTab .lightText {
+  color: #666666; }
+  .darkmode .TokenStatsTab .lightText {
+    color: #B3B3B3; }
+
+.TokenStatsTab .tokenStatsTable {
+  color: #525252; }
+  .darkmode .TokenStatsTab .tokenStatsTable {
+    color: #D1D1D1;
+    border-color: #2D3E50; }
+  .TokenStatsTab .tokenStatsTable table, .TokenStatsTab .tokenStatsTable td, .TokenStatsTab .tokenStatsTable th {
+    border-color: #E0E0E0; }
+    .darkmode .TokenStatsTab .tokenStatsTable table, .darkmode .TokenStatsTab .tokenStatsTable td, .darkmode .TokenStatsTab .tokenStatsTable th {
+      border-color: #2D3E50; }
+  .TokenStatsTab .tokenStatsTable .rowHeader {
+    background-color: #E0E0E0; }
+    .darkmode .TokenStatsTab .tokenStatsTable .rowHeader {
+      background-color: #2D3E50; }
+  .TokenStatsTab .tokenStatsTable .rowOdd {
+    background-color: #FFFFFF; }
+    .darkmode .TokenStatsTab .tokenStatsTable .rowOdd {
+      background-color: #2A323F; }
+  .TokenStatsTab .tokenStatsTable .rowEven {
+    background-color: #F8F9FA; }
+    .darkmode .TokenStatsTab .tokenStatsTable .rowEven {
+      background-color: #202C39; }
+  .TokenStatsTab .tokenStatsTable .transactionMessage {
+    color: #666666; }
+    .darkmode .TokenStatsTab .tokenStatsTable .transactionMessage {
+      color: #B3B3B3; }
+
+.MembershipsTab .membershipLightText {
+  color: #717171; }
+  .darkmode .MembershipsTab .membershipLightText {
+    color: #B3B3B3; }
+
+.MembershipsTab .membershipHeader {
+  border-bottom-color: #4c4c4c;
+  width: 640px; }
+  .darkmode .MembershipsTab .membershipHeader {
+    color: #FFFFFF;
+    border-bottom-color: #6E6F70; }
+
+.MembershipsTab .username {
+  color: #e45900; }
+
+.MembershipsTab:has(.MembershipFeedbackForm) td {
+  vertical-align: top; }
+
+.MembershipsTab:has(.MembershipFeedbackForm) .membershipHeader {
+  width: 830px; }
+
+.SatisfactionRating {
+  background-color: #FFFFFF; }
+  .darkmode .SatisfactionRating {
+    background-color: #2D3E50; }
+  .SatisfactionRating.modern .satisfactionSpan {
+    text-shadow: none; }
+  .SatisfactionRating.modern .voteText {
+    text-shadow: none; }
+  .SatisfactionRating .satisfactionSpan {
+    color: #7F7F7F;
+    text-shadow: 1px 1px 0px #94d2e6; }
+    .darkmode .SatisfactionRating .satisfactionSpan {
+      color: #B3B3B3;
+      text-shadow: none; }
+  .SatisfactionRating .voteText {
+    text-shadow: 1px 1px 0px #bababa; }
+    .darkmode .SatisfactionRating .voteText {
+      text-shadow: none; }
+  .SatisfactionRating .highPercent {
+    color: #298A08; }
+  .SatisfactionRating .mediumPercent {
+    color: #af5c01; }
+  .SatisfactionRating .lowPercent {
+    color: #af0101; }
+  .SatisfactionRating .commentDate {
+    color: #6C6C78; }
+    .darkmode .SatisfactionRating .commentDate {
+      color: #A7A7A7; }
+  .SatisfactionRating .ratingHistory {
+    border-color: #0b5d81; }
+    .darkmode .SatisfactionRating .ratingHistory {
+      background-color: #1C2733;
+      border-color: #2D3E50;
+      color: #B3B3B3; }
+    .SatisfactionRating .ratingHistory .positiveVote {
+      background-color: #EEEEEE;
+      border-color: #888888; }
+      .darkmode .SatisfactionRating .ratingHistory .positiveVote {
+        background-color: #2D3E50;
+        border-color: #2D3E50; }
+    .SatisfactionRating .ratingHistory .negativeVote {
+      background-color: #ffe9e5;
+      border-color: #888888; }
+      .darkmode .SatisfactionRating .ratingHistory .negativeVote {
+        border-color: #2D3E50;
+        background-color: #202C39; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+.roomCard {
+  border-color: #acacac; }
+  .darkmode .roomCard {
+    border-color: #202C39; }
+  .roomCard .cardTitle {
+    border-bottom-color: #acacac; }
+    .darkmode .roomCard .cardTitle {
+      border-bottom-color: #2D3E50; }
+  .roomCard li.cams {
+    background: url(../../images/cam.svg?aee4a41ba664) no-repeat 0 50%;
+    background-size: auto; }
+    .darkmode .roomCard li.cams {
+      background: url(../../images/cam_white.svg?282a760aab80) no-repeat 0 50%;
+      background-size: auto; }
+  .roomCard li.location {
+    background: url(../../images/location.svg?5021cfc1ff61) no-repeat 0 50%;
+    background-size: auto; }
+    .darkmode .roomCard li.location {
+      background: url(../../images/location_white.svg?339f27869359) no-repeat 0 50%;
+      background-size: auto; }
+  .roomCard .age {
+    float: left;
+    color: #49494F;
+    padding: 0 6px 0 0;
+    font: 1em/1.333em 'UbuntuMedium', Arial, Helvetica, sans-serif; }
+    .darkmode .roomCard .age {
+      color: #B3B3B3; }
+  .roomCard .age_gender_container {
+    display: flex;
+    height: 17px; }
+  .roomCard .genderf,
+  .roomCard .genderm,
+  .roomCard .genderc,
+  .roomCard .genders,
+  .roomCard .genderx {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    float: left; }
+  .roomCard .genderf {
+    background: url(../../images/ico-female.svg?818c9c4c368f) no-repeat 100% 0;
+    background-size: contain; }
+  .roomCard .genderm {
+    background: url(../../images/ico-male.svg?251793534c73) no-repeat 100% 0;
+    background-size: contain; }
+  .roomCard .genderc {
+    background: url(../../images/ico-couple.svg?b74df354b80e) no-repeat 100% 0;
+    background-size: contain; }
+  .roomCard .genders {
+    background: url(../../images/ico-trans.svg?4984008acb01) no-repeat 100% 0;
+    background-size: contain; }
+  .roomCard .genderx {
+    background: url(../../images/ico-blank.png?c807e40114dc) no-repeat 100% 0;
+    background-size: contain; }
+
+.thumbnail_flag {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-left: 6px;
+  margin-top: 2px;
+  height: 17px; }
+
+.thumbnail_flag .fi {
+  border-radius: 2px;
+  display: flex; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+/* Note this is a theme file -- Only color css allowed here! */
+.notificationsModal {
+  background-color: #e0e0e0;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75); }
+  .darkmode .notificationsModal {
+    color: #6E6F70;
+    background-color: #202C39;
+    border: 1px solid #2A323F;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32); }
+  .notificationsModal .divotTop .divotBackground {
+    border-bottom-color: #e0e0e0; }
+    .darkmode .notificationsModal .divotTop .divotBackground {
+      border-bottom-color: #202C39; }
+  .notificationsModal .divotTop .divotBorder {
+    border-bottom-color: #e0e0e0; }
+    .darkmode .notificationsModal .divotTop .divotBorder {
+      border-bottom-color: #2A323F; }
+  .notificationsModal .title {
+    color: #0c6a93; }
+    .darkmode .notificationsModal .title {
+      color: #FFFFFF; }
+  .notificationsModal .confirmButton:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode .notificationsModal .confirmButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode .notificationsModal .confirmButton:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode .notificationsModal .confirmButton:is(select) {
+    background-color: #202C39; }
+    .darkmode .notificationsModal .confirmButton:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .notificationsModal .confirmButton, .darkmode .notificationsModal .confirmButton {
+    background-color: #306A91;
+    color: #FFFFFF;
+    border: 1px solid #306A91;
+    border-radius: 4px; }
+  .notificationsModal .denyButton {
+    background-color: transparent;
+    color: #494949;
+    border: none; }
+    .notificationsModal .denyButton:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode .notificationsModal .denyButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode .notificationsModal .denyButton:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode .notificationsModal .denyButton:is(select) {
+      background-color: #202C39; }
+      .darkmode .notificationsModal .denyButton:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode .notificationsModal .denyButton {
+      color: #B3B3B3; }
+    .notificationsModal .denyButton:hover {
+      text-decoration: underline; }
+
+.followButton:focus {
+  outline: -webkit-focus-ring-color auto 1px; }
+
+.darkmode .followButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+  background-color: #202C39; }
+
+.darkmode .followButton:is(textarea, input, button):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #68B5F0; }
+
+.darkmode .followButton:is(select) {
+  background-color: #202C39; }
+  .darkmode .followButton:is(select):focus {
+    outline: #68B5F0 auto 1px; }
+
+.followButton, .darkmode .followButton {
+  background-color: #F47321;
+  color: #FFFFFF;
+  border: 1px solid #CD5D26;
+  border-radius: 4px; }
+
+.unfollowButton {
+  color: #ffffff;
+  background-color: #8b8b8b;
+  border-color: #8b8b8b;
+  border-right-color: #474747; }
+  .darkmode .unfollowButton {
+    color: #B3B3B3;
+    background-color: #202C39;
+    border-color: #2D3E50; }
+
+.notificationBtnMenu {
+  background-color: #fff;
+  color: #49494F; }
+  .darkmode .notificationBtnMenu {
+    background-color: #1C2733;
+    color: #B3B3B3; }
+  .notificationBtnMenu .notification-item {
+    border-color: #ACACAC;
+    color: #49494F; }
+    .darkmode .notificationBtnMenu .notification-item {
+      border-color: #2D3E50;
+      color: #B3B3B3; }
+    .notificationBtnMenu .notification-item.selected {
+      color: #F47321; }
+    .notificationBtnMenu .notification-item:hover {
+      background-color: #FCEADC; }
+      .darkmode .notificationBtnMenu .notification-item:hover {
+        background-color: #885336; }
+  .notificationBtnMenu .title {
+    background-color: #fafafa;
+    border-color: #ACACAC; }
+    .darkmode .notificationBtnMenu .title {
+      background-color: #1C2733;
+      border-color: #2D3E50;
+      color: #FFFFFF; }
+  .notificationBtnMenu .bookend {
+    border-color: #ACACAC; }
+    .darkmode .notificationBtnMenu .bookend {
+      border-color: #2D3E50; }
+
+.FollowNotificationButton {
+  background-color: #8b8b8b;
+  border-color: #8b8b8b; }
+  .darkmode .FollowNotificationButton {
+    color: #B3B3B3;
+    background-color: #202C39;
+    border-color: #2D3E50; }
+
+.notification-btn-icon.all {
+  background-image: url(../../images/follower/alarm-bell-ring-black.svg?e0f4045214c5); }
+  .notification-btn-icon.all.static {
+    background-image: url(../../images/follower/alarm-bell-ring-white.svg?6adba4a48565); }
+  .darkmode .notification-btn-icon.all {
+    background-image: url(../../images/follower/alarm-bell-ring-grey.svg?dbe47dc3d92a); }
+
+.notification-btn-icon.smart {
+  background-image: url(../../images/follower/alarm-bell-black.svg?281ea1ddd63e); }
+  .notification-btn-icon.smart.static {
+    background-image: url(../../images/follower/alarm-bell-white.svg?6fc221c99185); }
+  .darkmode .notification-btn-icon.smart {
+    background-image: url(../../images/follower/alarm-bell-grey.svg?41b1ce278423); }
+
+.notification-btn-icon.none {
+  background-image: url(../../images/follower/alarm-bell-off-black.svg?69c6917c7525); }
+  .notification-btn-icon.none.static {
+    background-image: url(../../images/follower/alarm-bell-off-white.svg?a03b66ab9bcd); }
+  .darkmode .notification-btn-icon.none {
+    background-image: url(../../images/follower/alarm-bell-off-grey.svg?f68550b4cde7); }
+
+#FollowSettingsModal .button {
+  background-color: #F47321;
+  color: #FFFFFF;
+  border-color: #CD5D26; }
+
+#FollowSettingsModal .textInput {
+  border-color: #ACACAC;
+  color: #525252;
+  background-color: #FFFFFF; }
+  .darkmode #FollowSettingsModal .textInput {
+    color: #B3B3B3;
+    background-color: #1F2C39;
+    border-color: #2D3E50; }
+
+#FollowSettingsModal .popularBadge {
+  background-color: #E0E0E0; }
+  .darkmode #FollowSettingsModal .popularBadge {
+    background-color: #1C2733; }
+
+#FollowSettingsModal .greenCheckbox {
+  background-color: #090; }
+
+#FollowSettingsModal .errorMessage {
+  color: #CC0000; }
+
+#FollowSettingsModal .verifyLink {
+  color: #306A91; }
+  .darkmode #FollowSettingsModal .verifyLink {
+    color: #68B5F0; }
+
+.fanclubButton:focus {
+  outline: -webkit-focus-ring-color auto 1px; }
+
+.darkmode .fanclubButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+  background-color: #202C39; }
+
+.darkmode .fanclubButton:is(textarea, input, button):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #68B5F0; }
+
+.darkmode .fanclubButton:is(select) {
+  background-color: #202C39; }
+  .darkmode .fanclubButton:is(select):focus {
+    outline: #68B5F0 auto 1px; }
+
+.fanclubButton, .darkmode .fanclubButton {
+  background-color: #009900;
+  color: #FFFFFF;
+  border: 1px solid #288A09;
+  border-radius: 4px; }
+
+.fanclubButton a {
+  color: #FFFFFF; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+#satisfactionScore.modern.enabled {
+  text-shadow: none; }
+
+#satisfactionScore.modern.disabled {
+  color: #4c4c4c;
+  background-color: #C9C9C9;
+  text-shadow: none; }
+  .darkmode #satisfactionScore.modern.disabled {
+    background-color: transparent; }
+
+#satisfactionScore.enabled {
+  background-color: #ffffff;
+  color: #0a5a83;
+  text-shadow: #94d2e6 1px 1px 0px; }
+  .darkmode #satisfactionScore.enabled {
+    background-color: #2A323F;
+    color: #68B5F0;
+    text-shadow: none; }
+
+#satisfactionScore.disabled {
+  background-color: #bbbbbb;
+  color: #777777;
+  text-shadow: #bababa 1px 1px 0px; }
+  .darkmode #satisfactionScore.disabled {
+    background-color: #202C39;
+    color: #6E6F70;
+    text-shadow: none; }
+  .darkmode #satisfactionScore.disabled .satisfactionLabel {
+    color: #B3B3B3; }
+
+#satisfactionScore .highPercent {
+  color: #298A08; }
+
+#satisfactionScore .mediumPercent {
+  color: #af5c01; }
+
+#satisfactionScore .lowPercent {
+  color: #af0101; }
+
+#satisfactionComment {
+  background-color: #ffffff;
+  border-color: #0b5d81;
+  color: #777777; }
+  .darkmode #satisfactionComment {
+    background-color: #1C2733;
+    border-color: #1C2733;
+    color: #B3B3B3; }
+  #satisfactionComment .divot .divotBorder {
+    border-bottom-color: #0b5d81; }
+    .darkmode #satisfactionComment .divot .divotBorder {
+      border-bottom-color: #1C2733; }
+  #satisfactionComment .divot .divotBackground {
+    border-bottom-color: #e0e0e0; }
+    .darkmode #satisfactionComment .divot .divotBackground {
+      border-bottom-color: #2D3E50; }
+  #satisfactionComment .header {
+    color: #0b5d81;
+    background-color: #e0e0e0; }
+    .darkmode #satisfactionComment .header {
+      color: #FFFFFF;
+      background-color: #2D3E50; }
+  #satisfactionComment .textBox {
+    border-color: #777777;
+    color: #000000; }
+    #satisfactionComment .textBox:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode #satisfactionComment .textBox:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode #satisfactionComment .textBox:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode #satisfactionComment .textBox:is(select) {
+      background-color: #202C39; }
+      .darkmode #satisfactionComment .textBox:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode #satisfactionComment .textBox {
+      border-color: #2D3E50;
+      color: #ffffff;
+      background-color: transparent; }
+  #satisfactionComment .submitBtn:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode #satisfactionComment .submitBtn:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode #satisfactionComment .submitBtn:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode #satisfactionComment .submitBtn:is(select) {
+    background-color: #202C39; }
+    .darkmode #satisfactionComment .submitBtn:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  #satisfactionComment .submitBtn, .darkmode #satisfactionComment .submitBtn {
+    background-color: #F47321;
+    color: #FFFFFF;
+    border: 1px solid #CD5D26;
+    border-radius: 4px; }
+
+.gender-tab.active a, .gender-tab a.active, a.gender-tab.active, div.gender-tab.active,
+.gender-tab a:hover, a.gender-tab:hover, div.gender-tab:hover,
+#main .top-section .sub-nav li.active a, #main .top-section .sub-nav li a.active,
+#main .top-section .sub-nav li a:hover {
+  border: 1px solid #8bb3da;
+  background: #fff;
+  color: #dc5500;
+  border-bottom-color: transparent; }
+  .darkmode .gender-tab.active a, .darkmode .gender-tab a.active, .darkmode a.gender-tab.active, .darkmode div.gender-tab.active, .darkmode .gender-tab a:hover, .darkmode a.gender-tab:hover, .darkmode div.gender-tab:hover, .darkmode #main .top-section .sub-nav li.active a, .darkmode #main .top-section .sub-nav li a.active, .darkmode #main .top-section .sub-nav li a:hover {
+    color: #68B5F0;
+    border: 1px solid #2D3E50;
+    background-color: #17202A;
+    border-bottom-color: transparent; }
+
+.gender-tab.collapsed, .gender-tab.collapsed a {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid transparent !important; }
+
+.darkmode .gender-tab.collapsed {
+  background-color: transparent; }
+
+.gender-tab a, a.gender-tab, div.gender-tab,
+#main .top-section .sub-nav li a {
+  color: #5e81a4;
+  background: #dde9f5;
+  border-color: #8bb3da; }
+  .darkmode .gender-tab a, .darkmode a.gender-tab, .darkmode div.gender-tab, .darkmode #main .top-section .sub-nav li a {
+    background-color: #202C39;
+    color: #B3B3B3;
+    border-color: #2D3E50; }
+  .gender-tab a:hover, a.gender-tab:hover, div.gender-tab:hover,
+  #main .top-section .sub-nav li a:hover {
+    cursor: pointer; }
+
+.darkmode .headline .buttons li.active a, .darkmode .headline .buttons li:hover a {
+  color: #68B5F0;
+  border-color: #2D3E50; }
+
+.darkmode .headline .buttons li a {
+  background-color: #202C39;
+  color: #B3B3B3;
+  border: 1px solid #2D3E50;
+  border-bottom-color: transparent; }
+
+.followedContainer a {
+  background-color: transparent; }
+
+.darkmode #main .top-section, .darkmode #main .headline .buttons {
+  background: #17202A;
+  border-bottom-color: #2D3E50; }
+
+#main .top-section #search_icon .search_svg, #main .headline .buttons #search_icon .search_svg {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  background-image: url(../../images/search.svg?45db19d3993d);
+  background-repeat: no-repeat; }
+  .darkmode #main .top-section #search_icon .search_svg, .darkmode #main .headline .buttons #search_icon .search_svg {
+    background-image: url(../../images/search_dm.svg?3492defa25bc); }
+
+.darkmode .content_header .standout {
+  color: #68B5F0; }
+
+.darkmode #main .block {
+  background-color: #202C39; }
+  .darkmode #main .block .info-user > div:not(:first-child) h2, .darkmode #main .block .info-user > div:not(:first-child) a {
+    color: #68B5F0 !important; }
+  .darkmode #main .block .info-user > div:not(:first-child) .defaultTooltipColor {
+    color: #B3B3B3 !important; }
+  .darkmode #main .block .previous_winners .form strong {
+    color: unset; }
+
+.previous_winners {
+  min-height: 800px; }
+
+#main .content .searching-overlay {
+  background-color: #f1f2f2; }
+  .darkmode #main .content .searching-overlay {
+    background-color: #2a2c2e; }
+
+#roomTabs {
+  border: 1px solid #acacac;
+  background-color: #ffffff; }
+  #roomTabs.modern, .darkmode #roomTabs {
+    border: none; }
+  .darkmode #roomTabs {
+    background-color: #202C39; }
+  #roomTabs .tabBar {
+    background-color: #7f7f7f; }
+    #roomTabs .tabBar.modern {
+      background-color: #C9C9C9; }
+    .darkmode #roomTabs .tabBar {
+      background-color: #17202A; }
+  #roomTabs .link {
+    color: #0b5d81; }
+    .darkmode #roomTabs .link {
+      color: #68B5F0; }
+  #roomTabs .label {
+    color: #0a5a83; }
+    .darkmode #roomTabs .label {
+      color: #FFFFFF; }
+  #roomTabs .contentText {
+    color: #000000; }
+    .darkmode #roomTabs .contentText {
+      color: #B3B3B3; }
+  #roomTabs .separator {
+    color: #222222; }
+    .darkmode #roomTabs .separator {
+      color: #b3b3b3; }
+  #roomTabs .fanclubMessage {
+    color: #494949; }
+    .darkmode #roomTabs .fanclubMessage {
+      color: #B3B3B3; }
+  #roomTabs .psContainer {
+    color: #0a5a83; }
+    .darkmode #roomTabs .psContainer {
+      color: #68B5F0; }
+  #roomTabs .previewBorder {
+    color: #cccccc; }
+    .darkmode #roomTabs .previewBorder {
+      color: #2A2C2E; }
+
+.tabLink {
+  color: #4c4c4c;
+  background-color: #c9c9c9; }
+  .darkmode .tabLink {
+    color: #B3B3B3;
+    background-color: #17202A; }
+  .tabLink.tabOpen, .tabLink.active {
+    color: #dc5500;
+    background-color: #ffffff; }
+    .darkmode .tabLink.tabOpen, .darkmode .tabLink.active {
+      color: #F47321;
+      background-color: #202C39; }
+  .tabLink.tabCollapsed {
+    background-color: transparent; }
+
+.room-tabs-dropdown-border {
+  border-color: #7f7f7f; }
+  .room-tabs-dropdown-border.modern {
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.32); }
+  .darkmode .room-tabs-dropdown-border {
+    border-color: #17202A;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.32); }
+
+.opt-in-flag-display {
+  align-items: center;
+  display: flex;
+  height: auto; }
+
+#TheaterModeRoomContents #video-mode, #TheaterModeRoomContents #fvm-link, #TheaterModeRoomContents .link {
+  color: #0a5a83; }
+  .darkmode #TheaterModeRoomContents #video-mode, .darkmode #TheaterModeRoomContents #fvm-link, .darkmode #TheaterModeRoomContents .link {
+    color: #68B5F0; }
+
+#TheaterModeRoomContents .styledDiv {
+  background-color: #cccccc;
+  border-color: #ACACAC; }
+  .darkmode #TheaterModeRoomContents .styledDiv {
+    background-color: #202C39;
+    border-color: #2D3E50; }
+
+#TheaterModeRoomContents .sendTipButton:focus {
+  outline: -webkit-focus-ring-color auto 1px; }
+
+.darkmode #TheaterModeRoomContents .sendTipButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+  background-color: #202C39; }
+
+.darkmode #TheaterModeRoomContents .sendTipButton:is(textarea, input, button):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #68B5F0; }
+
+.darkmode #TheaterModeRoomContents .sendTipButton:is(select) {
+  background-color: #202C39; }
+  .darkmode #TheaterModeRoomContents .sendTipButton:is(select):focus {
+    outline: #68B5F0 auto 1px; }
+
+#TheaterModeRoomContents .sendTipButton, .darkmode #TheaterModeRoomContents .sendTipButton {
+  background-color: #009900;
+  color: #FFFFFF;
+  border: 1px solid #288A09;
+  border-radius: 4px; }
+
+#TheaterModeRoomContents .sendDMButton:focus {
+  outline: -webkit-focus-ring-color auto 1px; }
+
+.darkmode #TheaterModeRoomContents .sendDMButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+  background-color: #202C39; }
+
+.darkmode #TheaterModeRoomContents .sendDMButton:is(textarea, input, button):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #68B5F0; }
+
+.darkmode #TheaterModeRoomContents .sendDMButton:is(select) {
+  background-color: #202C39; }
+  .darkmode #TheaterModeRoomContents .sendDMButton:is(select):focus {
+    outline: #68B5F0 auto 1px; }
+
+#TheaterModeRoomContents .sendDMButton, .darkmode #TheaterModeRoomContents .sendDMButton {
+  background-color: #F47321;
+  color: #FFFFFF;
+  border: 1px solid #CD5D26;
+  border-radius: 4px; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+#AppPanelTable {
+  color: #000000; }
+  .darkmode #AppPanelTable {
+    color: #B3B3B3; }
+  #AppPanelTable .rowOne, #AppPanelTable .rowThree {
+    background-color: #d5ebf8; }
+    .darkmode #AppPanelTable .rowOne, .darkmode #AppPanelTable .rowThree {
+      background-color: #1C2733; }
+  #AppPanelTable .rowTwo {
+    background-color: #f2f9fd; }
+    .darkmode #AppPanelTable .rowTwo {
+      background-color: #2D3E50; }
+  #AppPanelTable .threeRows-11-21-31 {
+    color: #0b5d81; }
+    .darkmode #AppPanelTable .threeRows-11-21-31 {
+      color: #68B5F0; }
+  #AppPanelTable .threeRowsOfLabels {
+    color: #057205; }
+    .darkmode #AppPanelTable .threeRowsOfLabels {
+      color: #009900; }
+
+.wrapper {
+  position: relative; }
+  .wrapper .subwrapper {
+    position: absolute;
+    bottom: 0px; }
+  .wrapper .privateShowRequestInner {
+    position: relative; }
+    .wrapper .privateShowRequestInner .closeIcon {
+      height: 16px;
+      width: 16px;
+      position: absolute;
+      right: 0px;
+      z-index: 1;
+      padding: 8px;
+      cursor: pointer;
+      background-image: url(../../images/skinnyClose.svg?6b26a68631ba);
+      background-position: center;
+      background-repeat: no-repeat; }
+      .darkmode .wrapper .privateShowRequestInner .closeIcon {
+        background-image: url(../../images/skinnyCloseDarkmode.svg?904412713c61); }
+    .wrapper .privateShowRequestInner .tooltip {
+      background: #FFFFFF;
+      filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+      padding: 10px;
+      border-radius: 5px;
+      width: 300px; }
+      .darkmode .wrapper .privateShowRequestInner .tooltip {
+        background: #1C2733; }
+      .wrapper .privateShowRequestInner .tooltip .header {
+        color: #222222;
+        font-family: "UbuntuRegular";
+        font-size: 16px;
+        line-height: 12px;
+        margin-top: 0;
+        margin-bottom: 14px; }
+        .darkmode .wrapper .privateShowRequestInner .tooltip .header {
+          color: #FFFFFF; }
+      .wrapper .privateShowRequestInner .tooltip .actionButton {
+        height: 28px;
+        background: #306A91;
+        border-radius: 4px;
+        cursor: pointer; }
+        .wrapper .privateShowRequestInner .tooltip .actionButton p {
+          color: #FFFFFF;
+          text-align: center;
+          line-height: 28px; }
+          .darkmode .wrapper .privateShowRequestInner .tooltip .actionButton p {
+            color: #FFFFFF; }
+
+.rateContainer {
+  display: flex; }
+  .rateContainer .bluePill {
+    background: rgba(48, 106, 145, 0.1);
+    color: #306A91;
+    border-radius: 4px;
+    line-height: 14px;
+    padding: 2px 3px; }
+    .darkmode .rateContainer .bluePill {
+      background: #2C3645;
+      color: #EAF0F4; }
+    .rateContainer .bluePill .clockIcon {
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      margin-right: 3px;
+      vertical-align: -1px;
+      background-image: url(../../images/ic_clock.svg?7cd1a617b34d); }
+  .rateContainer .bluePill:nth-child(1) {
+    margin-right: 4px; }
+
+.privateShowBodyDescriptionWrapper .separator {
+  border-top-width: 1px;
+  border-style: solid;
+  border-color: #EFEFEF;
+  margin-top: 10px; }
+  .darkmode .privateShowBodyDescriptionWrapper .separator {
+    border-color: #2C3645; }
+
+.privateShowBodyDescriptionWrapper .privateShowBodyDescription {
+  margin-top: 7px;
+  margin-bottom: 20px;
+  margin-left: 2px; }
+  .privateShowBodyDescriptionWrapper .privateShowBodyDescription .itemDescription {
+    color: #306A91;
+    display: flex;
+    align-items: center; }
+    .darkmode .privateShowBodyDescriptionWrapper .privateShowBodyDescription .itemDescription {
+      color: #EAF0F4; }
+    .privateShowBodyDescriptionWrapper .privateShowBodyDescription .itemDescription img {
+      width: 12px;
+      height: 12px; }
+    .privateShowBodyDescriptionWrapper .privateShowBodyDescription .itemDescription p {
+      font-size: 12px;
+      margin: 0px; }
+  .privateShowBodyDescriptionWrapper .privateShowBodyDescription .itemDescription:nth-child(1) {
+    line-height: 16px; }
+    .privateShowBodyDescriptionWrapper .privateShowBodyDescription .itemDescription:nth-child(1) img {
+      margin-right: 3px;
+      vertical-align: -3px; }
+  .privateShowBodyDescriptionWrapper .privateShowBodyDescription .itemDescription:nth-child(2) {
+    line-height: 12px;
+    margin-top: 6px; }
+    .privateShowBodyDescriptionWrapper .privateShowBodyDescription .itemDescription:nth-child(2) img {
+      margin-right: 3px;
+      vertical-align: -2px; }
+
+#VideoPanel {
+  border: 1px solid #acacac;
+  background-color: #ffffff; }
+  #VideoPanel.modern, .darkmode #VideoPanel {
+    border: none; }
+  .darkmode #VideoPanel {
+    background-color: #202C39; }
+  .darkmode #VideoPanel .roomSubject {
+    color: #FFFFFF; }
+  #VideoPanel .reportAbuseLink a {
+    color: #0c6a93; }
+    .darkmode #VideoPanel .reportAbuseLink a {
+      color: #68B5F0; }
+  #VideoPanel .playerTitleBar a.reportRoom {
+    text-transform: uppercase; }
+  #VideoPanel .currentBalance {
+    border-bottom: 1px solid #000000; }
+    .darkmode #VideoPanel .currentBalance {
+      border-bottom: 1px solid #2D3E50; }
+  #VideoPanel .panelLink {
+    color: #0a5a83; }
+    .darkmode #VideoPanel .panelLink {
+      color: #68B5F0; }
+  #VideoPanel .sendTipButton:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode #VideoPanel .sendTipButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode #VideoPanel .sendTipButton:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode #VideoPanel .sendTipButton:is(select) {
+    background-color: #202C39; }
+    .darkmode #VideoPanel .sendTipButton:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  #VideoPanel .sendTipButton, .darkmode #VideoPanel .sendTipButton {
+    background-color: #009900;
+    color: #FFFFFF;
+    border: 1px solid #288A09;
+    border-radius: 4px; }
+
+.roomSubjectTooltip {
+  border-color: #000;
+  background-color: #fff; }
+  .darkmode .roomSubjectTooltip {
+    border-color: #fff;
+    background-color: #202223; }
+
+.resizeHandle {
+  background: #e0e0e0 url(../../tsdefaultassets/resize_arrows.svg?0421601a463a) no-repeat center/325%; }
+  .resizeHandle:hover {
+    background-image: url(../../tsdefaultassets/resize_video.svg?44c622f3f81c); }
+  .darkmode .resizeHandle {
+    background: #17202A url(../../tsdefaultassets/resize_arrows_dm.svg?111a200376fb) no-repeat center/325%; }
+    .darkmode .resizeHandle:hover {
+      background-image: url(../../tsdefaultassets/resize_video_dm.svg?cc04ec06f40b); }
+
+/* Note this is a theme file -- Only color css allowed here! */
+/* Note this is a theme file -- Only color css allowed here! */
+#AbuseReport {
+  color: #454545; }
+  .darkmode #AbuseReport {
+    color: #B3B3B3; }
+  #AbuseReport .abuseInput {
+    border-color: #4b4c4b; }
+    #AbuseReport .abuseInput:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode #AbuseReport .abuseInput:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode #AbuseReport .abuseInput:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode #AbuseReport .abuseInput:is(select) {
+      background-color: #202C39; }
+      .darkmode #AbuseReport .abuseInput:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode #AbuseReport .abuseInput {
+      color: #FFFFFF !important;
+      border-color: #2D3E50; }
+  .darkmode #AbuseReport .abuseInput#abuse-category {
+    -webkit-appearance: menulist; }
+
+#AbuseReportModal {
+  background-color: #ffffff;
+  border-color: #0b5d81; }
+  .darkmode #AbuseReportModal {
+    background-color: #1C2733;
+    border-color: #17202A;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32); }
+  #AbuseReportModal .header {
+    color: #0b5d81;
+    background-color: #e0e0e0; }
+    .darkmode #AbuseReportModal .header {
+      color: #FFFFFF;
+      background-color: #2D3E50; }
+  #AbuseReportModal .divot .divotBorder {
+    border-bottom-color: #0b5d81; }
+    .darkmode #AbuseReportModal .divot .divotBorder {
+      border-bottom-color: #17202A; }
+  #AbuseReportModal .divot .divotBackground {
+    border-bottom-color: #e0e0e0; }
+    .darkmode #AbuseReportModal .divot .divotBackground {
+      border-bottom-color: #2D3E50; }
+
+.BaseRoomContents {
+  border: 1px solid #acacac;
+  background-color: #e0e0e0; }
+  .BaseRoomContents.modern, .darkmode .BaseRoomContents {
+    border: none; }
+  .darkmode .BaseRoomContents {
+    background-color: #17202A; }
+  .BaseRoomContents.noBackground {
+    background: none; }
+  .BaseRoomContents .offlineContentContainer {
+    background-color: #e0e0e0; }
+    .darkmode .BaseRoomContents .offlineContentContainer {
+      background: none; }
+  .BaseRoomContents .offlineRoomNotice {
+    color: #0b5d81; }
+    .darkmode .BaseRoomContents .offlineRoomNotice {
+      color: #68B5F0; }
+  .BaseRoomContents .topSectionWrapper {
+    background-color: #e0e0e0; }
+    .darkmode .BaseRoomContents .topSectionWrapper {
+      background-color: #17202A; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+/* Note this is a theme file -- Only color css allowed here! */
+.draggableCanvasChatWindow .chatInnerDiv {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: #7f7f7f; }
+  .darkmode .draggableCanvasChatWindow .chatInnerDiv {
+    border-color: #1C2733; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+.startShowComponent {
+  background-color: #f3f3f3;
+  border-color: #dedede; }
+  .darkmode .startShowComponent {
+    background-color: #2D3E50;
+    border-color: #2A323F; }
+  .startShowComponent .showsHeader {
+    color: #033e58; }
+    .darkmode .startShowComponent .showsHeader {
+      color: #68B5F0; }
+  .startShowComponent .showsButton:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode .startShowComponent .showsButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode .startShowComponent .showsButton:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode .startShowComponent .showsButton:is(select) {
+    background-color: #202C39; }
+    .darkmode .startShowComponent .showsButton:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .startShowComponent .showsButton, .darkmode .startShowComponent .showsButton {
+    background-color: #306A91;
+    color: #FFFFFF;
+    border: 1px solid #306A91;
+    border-radius: 4px; }
+  .startShowComponent .tokensRequirement {
+    color: #49494f; }
+    .darkmode .startShowComponent .tokensRequirement {
+      color: #FFFFFF; }
+  .startShowComponent .minutesRequirement, .startShowComponent .usersRequirement {
+    color: #999999; }
+    .darkmode .startShowComponent .minutesRequirement, .darkmode .startShowComponent .usersRequirement {
+      color: #9a9a9a; }
+  .startShowComponent .showsFooter {
+    color: #49494f; }
+    .darkmode .startShowComponent .showsFooter {
+      color: #FFFFFF; }
+
+.cancelShowComponent .tokenTextArea {
+  color: #494949; }
+  .darkmode .cancelShowComponent .tokenTextArea {
+    color: #b3b3b3; }
+
+.cancelShowComponent .cancelShowButton {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  background-color: #fd5035;
+  color: #ffffff; }
+  .cancelShowComponent .cancelShowButton.cancelShowButtonGradient {
+    background: linear-gradient(180deg, #FD5035 16.39%, #C51B01 86.03%); }
+
+.draggableCanvasWindow {
+  color: #FFFFFF; }
+  .darkmode .draggableCanvasWindow {
+    color: #B3B3B3; }
+  .draggableCanvasWindow .titleBar {
+    color: #0b5d81;
+    background-color: #cccccc; }
+    .darkmode .draggableCanvasWindow .titleBar {
+      color: #FFFFFF;
+      background-color: #2D3E50; }
+  .draggableCanvasWindow .closeButton {
+    border-color: #eee; }
+    .darkmode .draggableCanvasWindow .closeButton {
+      border-color: #999999; }
+    .draggableCanvasWindow .closeButton:hover {
+      background-color: #c9c9c9; }
+  .draggableCanvasWindow .innerDiv {
+    border-color: #0d5d81;
+    background-color: #ffffff; }
+    .darkmode .draggableCanvasWindow .innerDiv {
+      border-color: #17202A;
+      background-color: #1C2733; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+.floatingPlayer {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 1px 1px;
+  border-color: #ACACAC; }
+  .darkmode .floatingPlayer {
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32);
+    border-color: #2A323F; }
+  .floatingPlayer .header {
+    background-color: #ffffff; }
+    .floatingPlayer .header a {
+      color: #306A91; }
+    .darkmode .floatingPlayer .header {
+      background-color: #2D3E50; }
+      .darkmode .floatingPlayer .header a {
+        color: #68B5F0; }
+    .floatingPlayer .header .optionsArea .darkOptionsIcon {
+      display: none; }
+    .darkmode .floatingPlayer .header .optionsArea .lightOptionsIcon {
+      display: none; }
+    .darkmode .floatingPlayer .header .optionsArea .darkOptionsIcon {
+      display: block; }
+    .floatingPlayer .header .optionsArea:hover {
+      background-color: #e3e3e3; }
+      .darkmode .floatingPlayer .header .optionsArea:hover {
+        background-color: #888888; }
+    .floatingPlayer .header .closeArea .darkCloseIcon {
+      display: none; }
+    .darkmode .floatingPlayer .header .closeArea .lightCloseIcon {
+      display: none; }
+    .darkmode .floatingPlayer .header .closeArea .darkCloseIcon {
+      display: block; }
+    .floatingPlayer .header .closeArea:hover {
+      background-color: #e3e3e3; }
+      .darkmode .floatingPlayer .header .closeArea:hover {
+        background-color: #888888; }
+  .floatingPlayer .menuBubble {
+    background-color: #ffffff;
+    color: #666666;
+    border-color: #efefef; }
+    .floatingPlayer .menuBubble .darkAdvancedOptionsIcon {
+      display: none; }
+    .darkmode .floatingPlayer .menuBubble {
+      background-color: #2D3E50;
+      color: #B3B3B3;
+      border-color: #2A323F; }
+      .darkmode .floatingPlayer .menuBubble .lightAdvancedOptionsIcon {
+        display: none; }
+      .darkmode .floatingPlayer .menuBubble .darkAdvancedOptionsIcon {
+        display: inline-block; }
+    .darkmode .floatingPlayer .menuBubble .link {
+      color: #68B5F0; }
+    .floatingPlayer .menuBubble .caret {
+      border-bottom-color: #ffffff; }
+      .darkmode .floatingPlayer .menuBubble .caret {
+        border-bottom-color: #2D3E50; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+.emojiSelectionModal {
+  background-color: #FFFFFF;
+  border-color: #EFEFEF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08); }
+  .darkmode .emojiSelectionModal {
+    background-color: #1C2733;
+    border-color: #2D3E50;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32); }
+  .emojiSelectionModal .searchBar {
+    background-color: transparent;
+    border-color: #ACACAC; }
+    .emojiSelectionModal .searchBar:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode .emojiSelectionModal .searchBar:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode .emojiSelectionModal .searchBar:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode .emojiSelectionModal .searchBar:is(select) {
+      background-color: #202C39; }
+      .darkmode .emojiSelectionModal .searchBar:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode .emojiSelectionModal .searchBar {
+      border-color: #6E6F70; }
+    .emojiSelectionModal .searchBar .searchIcon {
+      background-image: url("../../tsdefaultassets/search_emojis.svg?05c1318122e6"); }
+      .darkmode .emojiSelectionModal .searchBar .searchIcon {
+        background-image: url("../../tsdefaultassets/search_emojis_darkmode.svg?9a00a1affa02"); }
+    .emojiSelectionModal .searchBar input {
+      background-color: transparent;
+      color: #000; }
+      .darkmode .emojiSelectionModal .searchBar input {
+        color: #FFFFFF; }
+  .emojiSelectionModal .sectionTitle {
+    color: #ACACAC; }
+    .darkmode .emojiSelectionModal .sectionTitle {
+      color: #B3B3B3; }
+  .emojiSelectionModal .emojiDiv:hover {
+    background-color: #E0E0E0; }
+    .darkmode .emojiSelectionModal .emojiDiv:hover {
+      background-color: #6E6F70; }
+  .emojiSelectionModal .uploadLink {
+    color: #306A91; }
+    .darkmode .emojiSelectionModal .uploadLink {
+      color: #68B5F0; }
+  .emojiSelectionModal .toneSelect {
+    background-color: #F8F9FA;
+    border-color: #EFEFEF; }
+    .darkmode .emojiSelectionModal .toneSelect {
+      background-color: #202C39;
+      border-color: #2D3E50; }
+  .emojiSelectionModal .currentToneContainer {
+    background-color: #E0E0E0; }
+    .darkmode .emojiSelectionModal .currentToneContainer {
+      background-color: #6E6F70; }
+  .emojiSelectionModal .divot .divotBorder {
+    border-top-color: #EFEFEF; }
+    .darkmode .emojiSelectionModal .divot .divotBorder {
+      border-top-color: #2D3E50; }
+  .emojiSelectionModal .divot .divotBackground {
+    border-top-color: #F8F9FA; }
+    .darkmode .emojiSelectionModal .divot .divotBackground {
+      border-top-color: #202C39; }
+
+/**
+ * Generic mixins
+ */
+/* Note this is a theme file -- Only color css allowed here! */
+.autocompleteModal {
+  background-color: #ffffff;
+  border-color: #acacac;
+  color: #494949; }
+  .darkmode .autocompleteModal {
+    background-color: #1C2733;
+    border-color: #1C2733;
+    color: #B3B3B3; }
+  .autocompleteModal.broadcasterTags {
+    border-color: #EFEFEF;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); }
+    .darkmode .autocompleteModal.broadcasterTags {
+      border-color: #1C2733; }
+    .autocompleteModal.broadcasterTags .selectedEmoticon {
+      background-color: #D9D9D9; }
+  .autocompleteModal .selectedEmoticon {
+    background-color: #cccccc; }
+    .darkmode .autocompleteModal .selectedEmoticon {
+      background-color: #885336; }
+  .autocompleteModal .previewWrapper {
+    border-bottom-color: #acacac; }
+    .darkmode .autocompleteModal .previewWrapper {
+      border-bottom-color: #6E6F70; }
+  .autocompleteModal .hrefColor {
+    color: #0A5B83; }
+    .darkmode .autocompleteModal .hrefColor {
+      color: #68B5F0; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+/* Note this is a theme file -- Only color css allowed here! */
+.sendTip .buttons:focus {
+  outline: -webkit-focus-ring-color auto 1px; }
+
+.darkmode .sendTip .buttons:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+  background-color: #202C39; }
+
+.darkmode .sendTip .buttons:is(textarea, input, button):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #68B5F0; }
+
+.darkmode .sendTip .buttons:is(select) {
+  background-color: #202C39; }
+  .darkmode .sendTip .buttons:is(select):focus {
+    outline: #68B5F0 auto 1px; }
+
+.sendTip .buttons, .darkmode .sendTip .buttons {
+  background-color: #F47321;
+  color: #FFFFFF;
+  border: 1px solid #CD5D26;
+  border-radius: 4px; }
+
+.darkmode .sendTip .buttons:focus {
+  outline: -webkit-focus-ring-color auto 1px; }
+
+.darkmode .darkmode .sendTip .buttons:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+  background-color: #202C39; }
+
+.darkmode .darkmode .sendTip .buttons:is(textarea, input, button):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #68B5F0; }
+
+.darkmode .darkmode .sendTip .buttons:is(select) {
+  background-color: #202C39; }
+  .darkmode .darkmode .sendTip .buttons:is(select):focus {
+    outline: #68B5F0 auto 1px; }
+
+.darkmode .sendTip .buttons, .darkmode .darkmode .sendTip .buttons {
+  background-color: #F47321;
+  color: #FFFFFF;
+  border: 1px solid #CD5D26;
+  border-radius: 4px; }
+
+.sendTip .buttons.disabled {
+  color: #cccccc;
+  background-color: #888888; }
+
+.sendTip .buttons.mobile {
+  background: linear-gradient(#87c667, #53843a); }
+  .sendTip .buttons.mobile.disabled {
+    background: linear-gradient(#b5b5b5, #6C6C78); }
+
+.sendTip .menu {
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px #333; }
+  .darkmode .sendTip .menu {
+    background-color: #202C39;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32); }
+  .sendTip .menu .menuItem {
+    border-color: #c9cbcc;
+    color: #000000; }
+    .darkmode .sendTip .menu .menuItem {
+      border-color: #2D3E50;
+      color: #FFFFFF; }
+    .sendTip .menu .menuItem.disabled {
+      color: #aaaaaa; }
+      .darkmode .sendTip .menu .menuItem.disabled {
+        color: #6E6F70; }
+    .sendTip .menu .menuItem dt.selected {
+      background: transparent url(../../tsdefaultassets/black-checkmark.svg?b58253f8c0e7) no-repeat 8px 45%; }
+      .darkmode .sendTip .menu .menuItem dt.selected {
+        background: transparent url(../../tsdefaultassets/white-checkmark.svg?8979b55ff488) no-repeat 8px 45%; }
+    .sendTip .menu .menuItem:hover {
+      border-color: #767b7d;
+      text-shadow: #aaaaaa 0 0 0; }
+
+#FVTipCallout .tokenBalance, #SplitModeTipCallout .tokenBalance {
+  color: green; }
+  .darkmode #FVTipCallout .tokenBalance, .darkmode #SplitModeTipCallout .tokenBalance {
+    color: #0F7F12; }
+
+#FVTipCallout .purchaseTokens, #SplitModeTipCallout .purchaseTokens {
+  color: #0a5a83; }
+  .darkmode #FVTipCallout .purchaseTokens, .darkmode #SplitModeTipCallout .purchaseTokens {
+    color: #68B5F0; }
+
+#FVTipCallout .tipAmountInput, #SplitModeTipCallout .tipAmountInput, #FVTipCallout .tipMessageInput, #SplitModeTipCallout .tipMessageInput {
+  border-color: #b4b4b4; }
+  #FVTipCallout .tipAmountInput:focus, #SplitModeTipCallout .tipAmountInput:focus, #FVTipCallout .tipMessageInput:focus, #SplitModeTipCallout .tipMessageInput:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode #FVTipCallout .tipAmountInput:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])), .darkmode #SplitModeTipCallout .tipAmountInput:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])), .darkmode #FVTipCallout .tipMessageInput:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])), .darkmode #SplitModeTipCallout .tipMessageInput:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode #FVTipCallout .tipAmountInput:is(textarea, input, button):focus, .darkmode #SplitModeTipCallout .tipAmountInput:is(textarea, input, button):focus, .darkmode #FVTipCallout .tipMessageInput:is(textarea, input, button):focus, .darkmode #SplitModeTipCallout .tipMessageInput:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode #FVTipCallout .tipAmountInput:is(select), .darkmode #SplitModeTipCallout .tipAmountInput:is(select), .darkmode #FVTipCallout .tipMessageInput:is(select), .darkmode #SplitModeTipCallout .tipMessageInput:is(select) {
+    background-color: #202C39; }
+    .darkmode #FVTipCallout .tipAmountInput:is(select):focus, .darkmode #SplitModeTipCallout .tipAmountInput:is(select):focus, .darkmode #FVTipCallout .tipMessageInput:is(select):focus, .darkmode #SplitModeTipCallout .tipMessageInput:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .darkmode #FVTipCallout .tipAmountInput, .darkmode #SplitModeTipCallout .tipAmountInput, .darkmode #FVTipCallout .tipMessageInput, .darkmode #SplitModeTipCallout .tipMessageInput {
+    border-color: #2D3E50;
+    background-color: transparent;
+    color: #ffffff; }
+
+#FVTipCallout .tipOptionsSelect, #SplitModeTipCallout .tipOptionsSelect {
+  border-color: #4b4c4b; }
+  .darkmode #FVTipCallout .tipOptionsSelect, .darkmode #SplitModeTipCallout .tipOptionsSelect {
+    background-color: #000000;
+    color: #B3B3B3; }
+    .darkmode #FVTipCallout .tipOptionsSelect:focus, .darkmode #SplitModeTipCallout .tipOptionsSelect:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68b5f0; }
+
+#FVTipCallout .warning, #SplitModeTipCallout .warning {
+  color: #ff0000; }
+
+#SplitModeTipCallout {
+  background-color: #ffffff;
+  border-color: #0b5d81; }
+  .darkmode #SplitModeTipCallout {
+    color: #B3B3B3;
+    background-color: #1C2733;
+    border-color: #17202A;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32); }
+  #SplitModeTipCallout .titleBar {
+    color: #0b5d81;
+    background-color: #e0e0e0; }
+    .darkmode #SplitModeTipCallout .titleBar {
+      color: #FFFFFF;
+      background-color: #2D3E50; }
+  #SplitModeTipCallout .purchaseTokens {
+    color: #d55215; }
+    .darkmode #SplitModeTipCallout .purchaseTokens {
+      color: #68B5F0; }
+  #SplitModeTipCallout .bottomDivot .divotBackground {
+    border-top-color: #ffffff; }
+    .darkmode #SplitModeTipCallout .bottomDivot .divotBackground {
+      border-top-color: #1C2733; }
+  #SplitModeTipCallout .bottomDivot .divotBorder {
+    border-top-color: #0b5d81; }
+    .darkmode #SplitModeTipCallout .bottomDivot .divotBorder {
+      border-top-color: #17202A; }
+  #SplitModeTipCallout .topDivot .divotBackground {
+    border-bottom-color: #e0e0e0; }
+    .darkmode #SplitModeTipCallout .topDivot .divotBackground {
+      border-bottom-color: #2D3E50; }
+  #SplitModeTipCallout .topDivot .divotBorder {
+    border-bottom-color: #0b5d81; }
+    .darkmode #SplitModeTipCallout .topDivot .divotBorder {
+      border-bottom-color: #17202A; }
+  #SplitModeTipCallout .leftDivot .divotBackground {
+    border-right-color: #ffffff; }
+    .darkmode #SplitModeTipCallout .leftDivot .divotBackground {
+      border-right-color: #1C2733; }
+  #SplitModeTipCallout .leftDivot .divotBorder {
+    border-right-color: #0b5d81; }
+    .darkmode #SplitModeTipCallout .leftDivot .divotBorder {
+      border-right-color: #17202A; }
+
+#FVTipCallout .checkbox:focus {
+  outline: -webkit-focus-ring-color auto 1px; }
+
+.darkmode #FVTipCallout .checkbox:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+  background-color: #202C39; }
+
+.darkmode #FVTipCallout .checkbox:is(textarea, input, button):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #68B5F0; }
+
+.darkmode #FVTipCallout .checkbox:is(select) {
+  background-color: #202C39; }
+  .darkmode #FVTipCallout .checkbox:is(select):focus {
+    outline: #68B5F0 auto 1px; }
+
+.darkmode #FVTipCallout .checkbox {
+  border-color: #4b4c4b;
+  background-color: #202223;
+  color: #ffffff; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+#RemoveIgnoredUsersModal {
+  background-color: #ffffff;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.4); }
+  .darkmode #RemoveIgnoredUsersModal {
+    background-color: #1C2733;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32);
+    color: #B3B3B3; }
+  #RemoveIgnoredUsersModal .overlay {
+    background-color: #000000; }
+  #RemoveIgnoredUsersModal .header {
+    color: #0c6a93; }
+    .darkmode #RemoveIgnoredUsersModal .header {
+      color: #FFFFFF; }
+  #RemoveIgnoredUsersModal .bluetxt {
+    color: #0c6a93; }
+    .darkmode #RemoveIgnoredUsersModal .bluetxt {
+      color: inherit; }
+  #RemoveIgnoredUsersModal .select {
+    background-color: transparent;
+    border-color: #b1b1b1; }
+    #RemoveIgnoredUsersModal .select:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode #RemoveIgnoredUsersModal .select:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode #RemoveIgnoredUsersModal .select:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode #RemoveIgnoredUsersModal .select:is(select) {
+      background-color: #202C39; }
+      .darkmode #RemoveIgnoredUsersModal .select:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode #RemoveIgnoredUsersModal .select {
+      border-color: #2D3E50;
+      color: #FFFFFF !important; }
+  #RemoveIgnoredUsersModal .saveButton:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode #RemoveIgnoredUsersModal .saveButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode #RemoveIgnoredUsersModal .saveButton:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode #RemoveIgnoredUsersModal .saveButton:is(select) {
+    background-color: #202C39; }
+    .darkmode #RemoveIgnoredUsersModal .saveButton:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  #RemoveIgnoredUsersModal .saveButton, .darkmode #RemoveIgnoredUsersModal .saveButton {
+    background-color: #F47321;
+    color: #FFFFFF;
+    border: 1px solid #CD5D26;
+    border-radius: 4px; }
+  #RemoveIgnoredUsersModal .darkCloseButton {
+    display: none; }
+  .darkmode #RemoveIgnoredUsersModal .lightCloseButton {
+    display: none; }
+  .darkmode #RemoveIgnoredUsersModal .darkCloseButton {
+    display: block; }
+
+.emoticonPreviewModal {
+  background-color: #ffffff;
+  color: #494949; }
+  .darkmode .emoticonPreviewModal {
+    background-color: #1C2733;
+    color: #B3B3B3; }
+  .emoticonPreviewModal .closeButton {
+    background: url(../../tsdefaultassets/close.svg?9a87e6f7a4de) no-repeat center center;
+    background-size: cover; }
+    .darkmode .emoticonPreviewModal .closeButton {
+      background: url(../../tsdefaultassets/close-white.svg?b0389426f1cb) no-repeat center center;
+      background-size: cover; }
+  .emoticonPreviewModal .cancelButton {
+    background-color: transparent;
+    color: #494949;
+    border: none; }
+    .emoticonPreviewModal .cancelButton:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode .emoticonPreviewModal .cancelButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode .emoticonPreviewModal .cancelButton:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode .emoticonPreviewModal .cancelButton:is(select) {
+      background-color: #202C39; }
+      .darkmode .emoticonPreviewModal .cancelButton:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode .emoticonPreviewModal .cancelButton {
+      color: #B3B3B3; }
+    .emoticonPreviewModal .cancelButton:hover {
+      text-decoration: underline; }
+  .emoticonPreviewModal .reportButton:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode .emoticonPreviewModal .reportButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode .emoticonPreviewModal .reportButton:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode .emoticonPreviewModal .reportButton:is(select) {
+    background-color: #202C39; }
+    .darkmode .emoticonPreviewModal .reportButton:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .emoticonPreviewModal .reportButton, .darkmode .emoticonPreviewModal .reportButton {
+    background-color: #306A91;
+    color: #FFFFFF;
+    border: 1px solid #306A91;
+    border-radius: 4px; }
+  .emoticonPreviewModal .categorySelect:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode .emoticonPreviewModal .categorySelect:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode .emoticonPreviewModal .categorySelect:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode .emoticonPreviewModal .categorySelect:is(select) {
+    background-color: #202C39; }
+    .darkmode .emoticonPreviewModal .categorySelect:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .darkmode .emoticonPreviewModal .categorySelect {
+    background-color: transparent;
+    color: #B3B3B3 !important;
+    -webkit-appearance: menulist; }
+  .emoticonPreviewModal .hrefColor {
+    color: #0A5B83; }
+    .darkmode .emoticonPreviewModal .hrefColor {
+      color: #68B5F0; }
+
+.emoticonImage img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  display: inline-block; }
+
+.mediaPreviewModal {
+  background-color: #FFFFFF;
+  color: #49494F; }
+  .darkmode .mediaPreviewModal {
+    background-color: #1C2733;
+    color: #B3B3B3; }
+  .mediaPreviewModal .closeButton {
+    background: url(../../tsdefaultassets/close.svg?9a87e6f7a4de) no-repeat center center;
+    background-size: cover; }
+    .darkmode .mediaPreviewModal .closeButton {
+      background: url(../../tsdefaultassets/close-white.svg?b0389426f1cb) no-repeat center center;
+      background-size: cover; }
+
+.userMentionModal {
+  background-color: #ffffff;
+  border: 1px solid #acacac;
+  color: #494949; }
+  .darkmode .userMentionModal {
+    background-color: #1C2733;
+    border-color: #1C2733;
+    color: #B3B3B3; }
+  .userMentionModal .highlight {
+    background-color: #EAEAEA; }
+    .darkmode .userMentionModal .highlight {
+      background-color: #885336; }
+  .userMentionModal .broadcaster {
+    color: #DC5500; }
+    .darkmode .userMentionModal .broadcaster {
+      color: #DC5500; }
+      .darkmode .userMentionModal .broadcaster.mentionHl {
+        color: #49494F;
+        background-color: #DC5500; }
+    .userMentionModal .broadcaster.mentionHl {
+      color: #fff;
+      background-color: #DC5500; }
+  .userMentionModal .mod {
+    color: #DC0000; }
+    .userMentionModal .mod.mentionHl {
+      color: #fff;
+      background-color: #DC0000; }
+  .userMentionModal .inFanclub {
+    color: #090; }
+    .darkmode .userMentionModal .inFanclub {
+      color: #090; }
+      .darkmode .userMentionModal .inFanclub.mentionHl {
+        color: #fff;
+        background-color: #090; }
+    .roomNotice .userMentionModal .inFanclub {
+      color: #090; }
+    .userMentionModal .inFanclub.mentionHl {
+      color: #fff;
+      background-color: #090; }
+  .userMentionModal .tippedTonsRecently {
+    color: #804baa; }
+    .darkmode .userMentionModal .tippedTonsRecently {
+      color: #804baa; }
+      .darkmode .userMentionModal .tippedTonsRecently.mentionHl {
+        color: #fff;
+        background-color: #804baa; }
+    .userMentionModal .tippedTonsRecently.mentionHl {
+      color: #fff;
+      background-color: #804baa; }
+  .userMentionModal .tippedALotRecently {
+    color: #be6aff; }
+    .darkmode .userMentionModal .tippedALotRecently {
+      color: #be6aff; }
+      .darkmode .userMentionModal .tippedALotRecently.mentionHl {
+        color: #fff;
+        background-color: #be6aff; }
+    .userMentionModal .tippedALotRecently.mentionHl {
+      color: #fff;
+      background-color: #be6aff; }
+  .userMentionModal .tippedRecently {
+    color: #1E5CFB; }
+    .darkmode .userMentionModal .tippedRecently {
+      color: #1E5CFB; }
+      .darkmode .userMentionModal .tippedRecently.mentionHl {
+        color: #fff;
+        background-color: #1E5CFB; }
+    .userMentionModal .tippedRecently.mentionHl {
+      color: #fff;
+      background-color: #1E5CFB; }
+  .userMentionModal .hasTokens {
+    color: #69A; }
+    .darkmode .userMentionModal .hasTokens {
+      color: #69A; }
+      .darkmode .userMentionModal .hasTokens.mentionHl {
+        color: #fff;
+        background-color: #69A; }
+    .userMentionModal .hasTokens.mentionHl {
+      color: #fff;
+      background-color: #69A; }
+  .userMentionModal .defaultUser {
+    color: #939393; }
+    .darkmode .userMentionModal .defaultUser {
+      color: #939393; }
+      .darkmode .userMentionModal .defaultUser.mentionHl {
+        color: #fff;
+        background-color: #939393; }
+    .userMentionModal .defaultUser.mentionHl {
+      color: #fff;
+      background-color: #939393; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+#user-context-menu {
+  background-color: #fff;
+  border-color: #f0f0f0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  color: #000; }
+  .darkmode #user-context-menu {
+    background-color: #1C2733;
+    border-color: #17202A;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32);
+    color: #B3B3B3; }
+  #user-context-menu .ucmPlaceholder {
+    background-color: #E0E0E0; }
+    .darkmode #user-context-menu .ucmPlaceholder {
+      background-color: #5B5B5B; }
+  #user-context-menu .ucmHeader {
+    background-color: #f9f9f9; }
+    .darkmode #user-context-menu .ucmHeader {
+      background-color: #2D3E50; }
+  #user-context-menu .ucmUserLabel {
+    border-top-color: #F0F0F0; }
+    .darkmode #user-context-menu .ucmUserLabel {
+      border-top-color: #17202A; }
+    #user-context-menu .ucmUserLabel .ucmSublabel {
+      color: #49494F; }
+      .darkmode #user-context-menu .ucmUserLabel .ucmSublabel {
+        color: #B3B3B3; }
+  #user-context-menu .ucmLinks {
+    border-top-color: #F0F0F0; }
+    .darkmode #user-context-menu .ucmLinks {
+      border-top-color: #2D3E50; }
+    #user-context-menu .ucmLinks .ucmReportLink .ucmReportIcon {
+      background: url(../../tsdefaultassets/report-msg-d.svg?eb708f4209bb) no-repeat center; }
+      .darkmode #user-context-menu .ucmLinks .ucmReportLink .ucmReportIcon {
+        background: url(../../tsdefaultassets/report-msg.svg?9f05fef58682) no-repeat center; }
+    #user-context-menu .ucmLinks .ucmIgnoreLink.notIgnored .ucmIgnoreIcon {
+      background: url(../../tsdefaultassets/ignore-user-d.svg?02a8f1bed31a) no-repeat center; }
+      .darkmode #user-context-menu .ucmLinks .ucmIgnoreLink.notIgnored .ucmIgnoreIcon {
+        background: url(../../tsdefaultassets/ignore-user.svg?4ca83bc3b789) no-repeat center; }
+    #user-context-menu .ucmLinks .ucmPMLink .ucmSendPmIcon {
+      background: url(../../tsdefaultassets/send-pvt-msg-d.svg?b766d83858cc) no-repeat center; }
+      .darkmode #user-context-menu .ucmLinks .ucmPMLink .ucmSendPmIcon {
+        background: url(../../tsdefaultassets/send-pvt-msg.svg?d51491334f35) no-repeat center; }
+    #user-context-menu .ucmLinks .ucmPMLink .ucmSendDmIcon {
+      background: url(../../tsdefaultassets/pms/ucm-chat-bubble-d.svg?2c7932b86012) no-repeat center; }
+      .darkmode #user-context-menu .ucmLinks .ucmPMLink .ucmSendDmIcon {
+        background: url(../../tsdefaultassets/pms/ucm-chat-bubble.svg?86cc25a6e9b0) no-repeat center; }
+    #user-context-menu .ucmLinks .ucmMentionIcon {
+      background: url(../../tsdefaultassets/mention-user-d.svg?d0a095711b30) no-repeat center/80%; }
+      .darkmode #user-context-menu .ucmLinks .ucmMentionIcon {
+        background: url(../../tsdefaultassets/mention-user.svg?ae84e6e53ad6) no-repeat center/80%; }
+    #user-context-menu .ucmLinks .ucmLinkColor {
+      color: #49494F; }
+      .darkmode #user-context-menu .ucmLinks .ucmLinkColor {
+        color: #B3B3B3; }
+  #user-context-menu .ucmModSection, #user-context-menu .ucmPromoteModSection, #user-context-menu .ucmHasTippedSection {
+    border-top-color: #F0F0F0; }
+    .darkmode #user-context-menu .ucmModSection, .darkmode #user-context-menu .ucmPromoteModSection, .darkmode #user-context-menu .ucmHasTippedSection {
+      border-top-color: #17202A; }
+  #user-context-menu .ucmLinkHover {
+    background-color: transparent; }
+    #user-context-menu .ucmLinkHover:hover {
+      background-color: #F9E4D5; }
+      .darkmode #user-context-menu .ucmLinkHover:hover {
+        background-color: #885336; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+/* Note this is a theme file -- Only color css allowed here! */
+.followedContainer {
+  color: #0a5a83; }
+  .darkmode .followedContainer {
+    color: #B3B3B3; }
+  .followedContainer .followedCount {
+    color: #525252;
+    font-family: 'UbuntuRegular', Arial, Helvetica, sans-serif; }
+    .darkmode .followedContainer .followedCount {
+      color: #B3B3B3; }
+
+#followed_anchor.followed-header.orange:after {
+  display: inline-block;
+  content: "";
+  position: relative;
+  height: 8px;
+  width: 8px;
+  top: -8px;
+  right: 2px;
+  background-image: url(../../tsdefaultassets/orange_dot.svg?d12655f82ca4);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#followed_anchor.followed-header.orange.text:after {
+  content: var(--unseen-follow-count, "");
+  height: 13px;
+  min-width: 13px;
+  width: auto;
+  padding: 0 4px 1px;
+  top: -8px;
+  right: 0;
+  background-image: none;
+  background-color: #F47321;
+  border-radius: 8px;
+  font-family: "UbuntuBold", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-align: center;
+  text-shadow: none; }
+
+.followedDropdown {
+  border: 1px solid #8bb3da;
+  border-radius: 0 4px 4px;
+  background-color: white;
+  color: #0a5a83; }
+  .darkmode .followedDropdown {
+    color: #B3B3B3;
+    background-color: #17202A;
+    border-color: #2D3E50; }
+
+.rulesModal {
+  background-color: white;
+  box-shadow: 0 0 10px #888;
+  border-color: #EFEFEF;
+  color: #494940; }
+  .darkmode .rulesModal {
+    background-color: #1C2733;
+    border-color: #17202A;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32);
+    color: #B3B3B3; }
+  .rulesModal .closeRulesButton {
+    background: none;
+    border-radius: 0;
+    border: none; }
+    .rulesModal .closeRulesButton:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode .rulesModal .closeRulesButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode .rulesModal .closeRulesButton:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode .rulesModal .closeRulesButton:is(select) {
+      background-color: #202C39; }
+      .darkmode .rulesModal .closeRulesButton:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode .rulesModal .closeRulesButton {
+      background-color: transparent; }
+  .rulesModal .acceptRulesButton:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode .rulesModal .acceptRulesButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode .rulesModal .acceptRulesButton:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode .rulesModal .acceptRulesButton:is(select) {
+    background-color: #202C39; }
+    .darkmode .rulesModal .acceptRulesButton:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .rulesModal .acceptRulesButton, .darkmode .rulesModal .acceptRulesButton {
+    background-color: #F47321;
+    color: #FFFFFF;
+    border: 1px solid #CD5D26;
+    border-radius: 4px; }
+  .rulesModal .scrollIndicator {
+    background: linear-gradient(0deg, white 0%, rgba(255, 255, 255, 0) 100%); }
+    .darkmode .rulesModal .scrollIndicator {
+      background: linear-gradient(0deg, #202223 0%, rgba(32, 34, 35, 0) 100%); }
+
+.tooltip {
+  color: #525252;
+  background-color: #FFFFFF;
+  border-color: #EFEFEF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08); }
+  .tooltip .tooltipCloseButton {
+    fill: #A7A7A7; }
+  .darkmode .tooltip {
+    color: #FFFFFF;
+    background-color: #1C2733;
+    border-color: #17202A;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8); }
+  .tooltip .divotTop .divotBackground {
+    border-bottom-color: #FFFFFF; }
+    .darkmode .tooltip .divotTop .divotBackground {
+      border-bottom-color: #1C2733; }
+  .tooltip .divotTop .divotBorder {
+    border-bottom-color: #EFEFEF; }
+    .darkmode .tooltip .divotTop .divotBorder {
+      border-bottom-color: #17202A; }
+  .tooltip .divotBottom .divotBackground {
+    border-top-color: #FFFFFF; }
+    .darkmode .tooltip .divotBottom .divotBackground {
+      border-top-color: #1C2733; }
+  .tooltip .divotBottom .divotBorder {
+    border-top-color: #EFEFEF; }
+    .darkmode .tooltip .divotBottom .divotBorder {
+      border-top-color: #17202A; }
+  .tooltip .divotLeft .divotBackground {
+    border-right-color: #FFFFFF; }
+    .darkmode .tooltip .divotLeft .divotBackground {
+      border-right-color: #1C2733; }
+  .tooltip .divotLeft .divotBorder {
+    border-right-color: #EFEFEF; }
+    .darkmode .tooltip .divotLeft .divotBorder {
+      border-right-color: #17202A; }
+  .tooltip .divotRight .divotBackground {
+    border-left-color: #FFFFFF; }
+    .darkmode .tooltip .divotRight .divotBackground {
+      border-left-color: #1C2733; }
+  .tooltip .divotRight .divotBorder {
+    border-left-color: #EFEFEF; }
+    .darkmode .tooltip .divotRight .divotBorder {
+      border-right-color: #17202A; }
+
+#smc-preview-modal {
+  background-color: #F8F9FA;
+  color: #49494F; }
+  .darkmode #smc-preview-modal {
+    background-color: #1C2733;
+    color: #FFFFFF; }
+  #smc-preview-modal .title {
+    color: #306A91; }
+    .darkmode #smc-preview-modal .title {
+      color: #68B5F0; }
+  #smc-preview-modal video {
+    background-color: #000000; }
+  #smc-preview-modal .infoPanel {
+    border-color: #CCCCCC;
+    background-color: #FFFFD8;
+    color: #494949; }
+    .darkmode #smc-preview-modal .infoPanel {
+      background-color: #253543;
+      border-color: #2D3E50;
+      color: #FFFFFF; }
+  #smc-preview-modal .settingsPanel {
+    border-color: #BFBFBF; }
+    .darkmode #smc-preview-modal .settingsPanel {
+      border-color: #2D3E50;
+      color: #B3B3B3; }
+    #smc-preview-modal .settingsPanel select {
+      background-color: transparent;
+      border-color: #BCBCBC;
+      -webkit-appearance: menulist; }
+      .darkmode #smc-preview-modal .settingsPanel select {
+        border-color: #2D3E50;
+        color: #FFFFFF !important; }
+  #smc-preview-modal .startButton:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode #smc-preview-modal .startButton:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode #smc-preview-modal .startButton:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode #smc-preview-modal .startButton:is(select) {
+    background-color: #202C39; }
+    .darkmode #smc-preview-modal .startButton:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  #smc-preview-modal .startButton, .darkmode #smc-preview-modal .startButton {
+    background-color: #F47321;
+    color: #FFFFFF;
+    border: 1px solid #CD5D26;
+    border-radius: 4px; }
+  #smc-preview-modal .helpOverlay {
+    background-color: #F8F9FA;
+    border-color: #888;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32); }
+    .darkmode #smc-preview-modal .helpOverlay {
+      background-color: #1C2733;
+      border-color: #2D3E50;
+      color: #B3B3B3; }
+    #smc-preview-modal .helpOverlay .error {
+      color: #CC0000; }
+      .darkmode #smc-preview-modal .helpOverlay .error {
+        color: #DC0000; }
+    #smc-preview-modal .helpOverlay button:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode #smc-preview-modal .helpOverlay button:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode #smc-preview-modal .helpOverlay button:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode #smc-preview-modal .helpOverlay button:is(select) {
+      background-color: #202C39; }
+      .darkmode #smc-preview-modal .helpOverlay button:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    #smc-preview-modal .helpOverlay button, .darkmode #smc-preview-modal .helpOverlay button {
+      background-color: #F47321;
+      color: #FFFFFF;
+      border: 1px solid #CD5D26;
+      border-radius: 4px; }
+
+.smc-status-tooltip {
+  color: #525252;
+  background-color: #FFFFFF;
+  border-color: #EFEFEF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08); }
+  .smc-status-tooltip .tooltipCloseButton {
+    fill: #A7A7A7; }
+  .darkmode .smc-status-tooltip {
+    color: #FFFFFF;
+    background-color: #1C2733;
+    border-color: #17202A;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8); }
+  .smc-status-tooltip .divotTop .divotBackground {
+    border-bottom-color: #FFFFFF; }
+    .darkmode .smc-status-tooltip .divotTop .divotBackground {
+      border-bottom-color: #1C2733; }
+  .smc-status-tooltip .divotTop .divotBorder {
+    border-bottom-color: #EFEFEF; }
+    .darkmode .smc-status-tooltip .divotTop .divotBorder {
+      border-bottom-color: #17202A; }
+  .smc-status-tooltip .divotBottom .divotBackground {
+    border-top-color: #FFFFFF; }
+    .darkmode .smc-status-tooltip .divotBottom .divotBackground {
+      border-top-color: #1C2733; }
+  .smc-status-tooltip .divotBottom .divotBorder {
+    border-top-color: #EFEFEF; }
+    .darkmode .smc-status-tooltip .divotBottom .divotBorder {
+      border-top-color: #17202A; }
+  .smc-status-tooltip .divotLeft .divotBackground {
+    border-right-color: #FFFFFF; }
+    .darkmode .smc-status-tooltip .divotLeft .divotBackground {
+      border-right-color: #1C2733; }
+  .smc-status-tooltip .divotLeft .divotBorder {
+    border-right-color: #EFEFEF; }
+    .darkmode .smc-status-tooltip .divotLeft .divotBorder {
+      border-right-color: #17202A; }
+  .smc-status-tooltip .divotRight .divotBackground {
+    border-left-color: #FFFFFF; }
+    .darkmode .smc-status-tooltip .divotRight .divotBackground {
+      border-left-color: #1C2733; }
+  .smc-status-tooltip .divotRight .divotBorder {
+    border-left-color: #EFEFEF; }
+    .darkmode .smc-status-tooltip .divotRight .divotBorder {
+      border-right-color: #17202A; }
+
+.dismissibleMessage {
+  background-color: #C9C9C9;
+  border-color: #ACACAC; }
+  .darkmode .dismissibleMessage {
+    background-color: #1C2733;
+    border-color: #2D3E50; }
+
+.RoomSignupPopup {
+  border: 1px solid #efefef;
+  background-color: white; }
+  .darkmode .RoomSignupPopup {
+    background-color: #202C39;
+    border: 1px solid #2A323F; }
+  .RoomSignupPopup .title {
+    color: #222222; }
+    .darkmode .RoomSignupPopup .title {
+      color: white; }
+  .RoomSignupPopup .body {
+    color: #525252; }
+    .darkmode .RoomSignupPopup .body {
+      color: #B3B3B3; }
+  .RoomSignupPopup .signupLink {
+    color: white;
+    background-color: #F47321; }
+
+.cornerSurveyWrapper {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16); }
+  .cornerSurveyWrapper .cornerSurveyContainer {
+    background-color: #FFFFFF;
+    border-color: #EFEFEF; }
+    .darkmode .cornerSurveyWrapper .cornerSurveyContainer {
+      background-color: #1C2733;
+      border-color: #17202A; }
+    .cornerSurveyWrapper .cornerSurveyContainer .timer {
+      background-color: #306A91; }
+      .darkmode .cornerSurveyWrapper .cornerSurveyContainer .timer {
+        background-color: #68B5F0; }
+    .cornerSurveyWrapper .cornerSurveyContainer .survey .title {
+      color: #272F35; }
+      .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .title {
+        color: #FFFFFF; }
+    .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer {
+      background-color: transparent;
+      border-color: #ACACAC; }
+      .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer {
+        border-color: #2D3E50; }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover {
+        background-color: #E0EEFB;
+        border-color: #0B5B7E; }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover {
+          background-color: rgba(104, 181, 240, 0.1);
+          border-color: #68B5F0; }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileyInTrouble {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-in-trouble.svg?2c270418c9a7"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileyInTrouble {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-in-trouble-darkmode.svg?f185c8672aca"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileyInTrouble, .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileyInTrouble {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-in-trouble-hover.svg?40c2318cfa5e"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileyInTrouble, .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileyInTrouble {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-in-trouble-darkmode-hover.svg?2de0a31583b7"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileyUnhappy {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-unhappy.svg?464bf681ef2d"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileyUnhappy {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-unhappy-darkmode.svg?15c39eee3883"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileyUnhappy, .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileyUnhappy {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-unhappy-hover.svg?e61cc6deaadc"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileyUnhappy, .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileyUnhappy {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-unhappy-darkmode-hover.svg?7a2bb622ddea"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileyIndifferent {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-indifferent.svg?035ce1a98261"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileyIndifferent {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-indifferent-darkmode.svg?d88f9a2a408c"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileyIndifferent, .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileyIndifferent {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-indifferent-hover.svg?07f36a93de62"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileyIndifferent, .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileyIndifferent {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-indifferent-darkmode-hover.svg?d7be1f8993ad"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileySmirk {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-smirk.svg?41565f4557d9"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileySmirk {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-smirk-darkmode.svg?89b9dfde6d4d"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileySmirk, .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileySmirk {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-smirk-hover.svg?3d80624964fb"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileySmirk, .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileySmirk {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-smirk-darkmode-hover.svg?2eb3f9cd46e7"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileyInLove {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-in-love.svg?09c33b0fe104"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .smileyInLove {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-in-love-darkmode.svg?7b690c269db1"); }
+      .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileyInLove, .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileyInLove {
+        background-image: url("../../tsdefaultassets/popup_survey/smiley-in-love-hover.svg?204ae832b170"); }
+        .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer:hover .smileyInLove, .darkmode .cornerSurveyWrapper .cornerSurveyContainer .survey .emoteContainer .selected.smileyInLove {
+          background-image: url("../../tsdefaultassets/popup_survey/smiley-in-love-darkmode-hover.svg?7e39b62f2735"); }
+    .cornerSurveyWrapper .cornerSurveyContainer .confirmation .title {
+      color: #525252; }
+      .darkmode .cornerSurveyWrapper .cornerSurveyContainer .confirmation .title {
+        color: #B3B3B3; }
+    .cornerSurveyWrapper .cornerSurveyContainer .confirmation .feedbackLink {
+      color: #306A91; }
+      .darkmode .cornerSurveyWrapper .cornerSurveyContainer .confirmation .feedbackLink {
+        color: #68B5F0; }
+  .cornerSurveyWrapper.mobile {
+    box-shadow: none; }
+    .cornerSurveyWrapper.mobile .cornerSurveyContainer {
+      background-color: #E0EEFB;
+      border-color: #8DB4D9; }
+    .cornerSurveyWrapper.mobile .survey .title {
+      color: #272F35; }
+    .cornerSurveyWrapper.mobile .confirmation .title {
+      color: #49494F; }
+    .cornerSurveyWrapper.mobile .timerContainer {
+      background-color: #8DB4D9; }
+
+.OBSBroadcastInfo input#obs_token {
+  border: none;
+  width: 90%;
+  text-align: center;
+  color: #7F7F7F; }
+
+.OBSBroadcastInfo .infoOverlay {
+  background-color: #000000; }
+
+.OBSBroadcastInfo #obs_broadcast_info {
+  color: #7F7F7F;
+  background-color: #FFFFFF;
+  border-color: #CCCCCC; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info {
+    color: #B3B3B3;
+    background-color: #1C2733;
+    border-color: #17202A; }
+  .OBSBroadcastInfo #obs_broadcast_info .supportLink {
+    color: #0a5a83; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .supportLink {
+      color: #68B5F0; }
+  .OBSBroadcastInfo #obs_broadcast_info .warning {
+    color: #0a5a83; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .warning {
+      color: #68B5F0; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll {
+    border-color: #6E6F70; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll hr {
+    border-color: #6E6F70; }
+  .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue {
+    background-color: transparent; }
+    .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:focus {
+      outline: -webkit-focus-ring-color auto 1px; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+      background-color: #202C39; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:is(textarea, input, button):focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #68B5F0; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:is(select) {
+      background-color: #202C39; }
+      .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:is(select):focus {
+        outline: #68B5F0 auto 1px; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue {
+      color: #B3B3B3; }
+      .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .tokenValue:focus {
+        color: #FFFFFF; }
+  .OBSBroadcastInfo #obs_broadcast_info .scroll .rtmpUrl {
+    color: #0b5d81; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .scroll .rtmpUrl {
+      color: #68B5F0; }
+  .OBSBroadcastInfo #obs_broadcast_info .button:focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .button:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .button:is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode .OBSBroadcastInfo #obs_broadcast_info .button:is(select) {
+    background-color: #202C39; }
+    .darkmode .OBSBroadcastInfo #obs_broadcast_info .button:is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .OBSBroadcastInfo #obs_broadcast_info .button, .darkmode .OBSBroadcastInfo #obs_broadcast_info .button {
+    background-color: #F47321;
+    color: #FFFFFF;
+    border: 1px solid #CD5D26;
+    border-radius: 4px; }
+
+.GameInfoBar {
+  color: #49494F;
+  background-color: white; }
+  .GameInfoBar .gameImage {
+    border-right: solid 1px #EFEFEF; }
+  .GameInfoBar .stopStreamingButton {
+    border: 1px solid #49494F; }
+  .darkmode .GameInfoBar {
+    color: #B3B3B3;
+    background-color: #2A2C2E; }
+    .darkmode .GameInfoBar a {
+      color: #68B5F0; }
+    .darkmode .GameInfoBar .gameImage {
+      border-right: solid 1px #666666; }
+    .darkmode .GameInfoBar .stopStreamingButton {
+      border: 1px solid #B3B3B3; }
+
+.darkmode .OBSInfoSection a {
+  color: #68B5F0; }
+
+.GameSelection {
+  background-color: white;
+  color: #49494F; }
+  .GameSelection .searchBar {
+    border: 1px solid #ACACAC; }
+  .GameSelection .title {
+    color: #272F35; }
+  .GameSelection .selectGameButton {
+    border: 1px solid #49494F; }
+  .darkmode .GameSelection {
+    background-color: #202223;
+    color: #B3B3B3;
+    border: 1px solid #2e3137; }
+    .darkmode .GameSelection .searchBar {
+      border: 1px solid #2e3137; }
+      .darkmode .GameSelection .searchBar input[type=text] {
+        background-color: inherit;
+        color: inherit; }
+    .darkmode .GameSelection .title {
+      color: white; }
+    .darkmode .GameSelection .selectGameButton {
+      border: 1px solid #B3B3B3; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+.InRoomIndicator.inRoom {
+  background: url(../../tsdefaultassets/inRoomIndicator.svg?cb27fe2ea29f) no-repeat; }
+  .darkmode .InRoomIndicator.inRoom {
+    background: url(../../tsdefaultassets/inRoomIndicator_darkmode.svg?f22e70a49cad) no-repeat; }
+
+.InRoomIndicator.notInPrivate {
+  background: url(../../tsdefaultassets/notInPrivateIndicator.svg?717593b447f3) no-repeat; }
+
+.InRoomIndicator.notInRoom {
+  background: url(../../tsdefaultassets/notInRoomIndicator.svg?1707fe94fbc7) no-repeat; }
+
+:root {
+  --cb-roomNoticeGroup-link-color: #306A91; }
+
+.darkmode {
+  --cb-roomNoticeGroup-link-color: #68B5F0; }
+
+.roomNoticeGroup .expandAll, .roomNoticeGroup .collapseAll {
+  color: var(--cb-roomNoticeGroup-link-color-blue); }
+
+.noScrollbar {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */ }
+  .noScrollbar br {
+    display: none; }
+  .noScrollbar::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    /* Chrome/Safari/Webkit */ }
+
+.pmMediaDockContainer {
+  background: #F8F9FA; }
+  .darkmode .pmMediaDockContainer, .hasDarkBackground .pmMediaDockContainer {
+    background: #17202A; }
+  .pmMediaDockContainer .scrollButton {
+    background-color: #FFFFFF; }
+  .pmMediaDockContainer.SelectedMediaDock {
+    border: 1px solid #acacac; }
+    .darkmode .pmMediaDockContainer.SelectedMediaDock {
+      border: 1px solid #2D3E50; }
+  .pmMediaDockContainer .mediaDockItem .rejected {
+    background: #885336;
+    color: #CBCBCB; }
+  .pmMediaDockContainer .MediaDock {
+    background: #F8F9FA; }
+    .darkmode .pmMediaDockContainer .MediaDock, .hasDarkBackground .pmMediaDockContainer .MediaDock {
+      background: #17202A; }
+    .pmMediaDockContainer .MediaDock .mediaDockItem .rejected {
+      background: #885336;
+      color: #CBCBCB; }
+
+.ChatMediaCarousel {
+  box-shadow: 0 0 3px black;
+  background: #FFFFFF; }
+  .darkmode .ChatMediaCarousel {
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.32);
+    background: #202C39; }
+
+.timerBar25s {
+  animation: roundtime calc(25 * 1s) linear forwards;
+  transform-origin: left center; }
+
+@keyframes roundtime {
+  to {
+    /* More performant than animating `width` */
+    transform: scaleX(0); } }
+  .pauseOnHover:hover .timerBar25s {
+    animation-play-state: paused; }
+
+.timerBar15s {
+  animation: roundtime calc(15 * 1s) linear forwards;
+  transform-origin: left center; }
+
+@keyframes roundtime {
+  to {
+    /* More performant than animating `width` */
+    transform: scaleX(0); } }
+  .pauseOnHover:hover .timerBar15s {
+    animation-play-state: paused; }
+
+.timerBar7s {
+  animation: roundtime calc(7 * 1s) linear forwards;
+  transform-origin: left center; }
+
+@keyframes roundtime {
+  to {
+    /* More performant than animating `width` */
+    transform: scaleX(0); } }
+  .pauseOnHover:hover .timerBar7s {
+    animation-play-state: paused; }
+
+/* Note this is a theme file -- Only color css allowed here! */
+.darkmode .checkboxComponent input:focus-visible {
+  outline-color: #68B5F0; }
+
+.checkboxComponent.toggle .toggleButton {
+  background-color: white; }
+
+.transparentCheckbox {
+  background-color: transparent;
+  border-color: #A8A8A8; }
+  .darkmode .transparentCheckbox {
+    background-color: #17202A;
+    border-color: #2D3E50; }
+  .transparentCheckbox.disabled {
+    background-color: #F8F9FA;
+    border-color: #EFEFEF; }
+    .darkmode .transparentCheckbox.disabled {
+      background-color: #202C39;
+      border-color: #2D3E50; }
+  .transparentCheckbox.checked {
+    background: url(../../tsdefaultassets/settings-checkmark-white.svg?ae5c98f6a38e) no-repeat center center/60%, #306A91;
+    border-color: #033E58; }
+    .transparentCheckbox.checked.disabled {
+      background-color: #d1d1d1;
+      border-color: #EFEFEF; }
+      .darkmode .transparentCheckbox.checked.disabled {
+        background-color: #17202A;
+        border-color: #2D3E50; }
+
+.darkmode .draggableCanvasWindow .transparentCheckbox {
+  border-color: #B3B3B3; }
+
+.draggableCanvasWindow .transparentCheckbox.checked {
+  background: url(../../tsdefaultassets/round-white-checkmark.svg?de510ac7d460) no-repeat center center, #B3B3B3; }
+
+.fieldTextArea,
+.fieldInput:not(.transparentCheckbox) {
+  border-color: #b1b1b1;
+  background-color: #FFFFFF; }
+  .fieldTextArea:focus,
+  .fieldInput:not(.transparentCheckbox):focus {
+    outline: -webkit-focus-ring-color auto 1px; }
+  .darkmode .fieldTextArea:is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])), .darkmode .fieldInput:not(.transparentCheckbox):is(textarea, input, button):is(:not(button, input[type=submit], input[type=button])) {
+    background-color: #202C39; }
+  .darkmode .fieldTextArea:is(textarea, input, button):focus, .darkmode .fieldInput:not(.transparentCheckbox):is(textarea, input, button):focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #68B5F0; }
+  .darkmode .fieldTextArea:is(select), .darkmode .fieldInput:not(.transparentCheckbox):is(select) {
+    background-color: #202C39; }
+    .darkmode .fieldTextArea:is(select):focus, .darkmode .fieldInput:not(.transparentCheckbox):is(select):focus {
+      outline: #68B5F0 auto 1px; }
+  .darkmode .fieldTextArea, .darkmode .fieldInput:not(.transparentCheckbox) {
+    border-color: #6E6F70;
+    color: #FFFFFF !important; }
+
+.highlightLabel {
+  color: #dc5500; }
+
+.highlightField {
+  background-color: #ffffd3; }
+
+.highlightFieldContainer {
+  border-color: #dc5500;
+  background-color: #ffffd3; }
+  .darkmode .highlightFieldContainer {
+    background-color: transparent; }
+
+.multiSelectDropdown {
+  position: relative; }
+  .multiSelectDropdown .dropdownMenuIcon {
+    float: right; }
+  .multiSelectDropdown .activeChoicesContainer {
+    box-sizing: border-box;
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    padding: 2px 2px 2px 2px;
+    line-height: 18px;
+    margin-top: 4px;
+    width: 235px;
+    min-height: 24px;
+    background-color: #FFFFFF; }
+    .multiSelectDropdown .activeChoicesContainer:hover {
+      cursor: pointer; }
+    .multiSelectDropdown .activeChoicesContainer:focus {
+      border: 2px solid #2C52C0; }
+    .multiSelectDropdown .activeChoicesContainer:has(.activeChoiceElement) {
+      padding-bottom: 0px; }
+    .multiSelectDropdown .activeChoicesContainer .activeChoiceElement {
+      padding: 2px 7px;
+      height: 12px;
+      margin: 0px 2px 2px 0px;
+      color: #306A91;
+      border-radius: 4px;
+      gap: 4px;
+      background: #E0EEFB;
+      border: 1px solid #E0EEFB;
+      display: inline-block;
+      line-height: 12px; }
+  .multiSelectDropdown .checkboxesDropdown {
+    box-sizing: border-box;
+    position: absolute;
+    overflow: scroll;
+    display: none;
+    flex-direction: column;
+    padding: 16px 46px 16px 16px;
+    box-shadow: 0px 2px 6px 0px #00000040;
+    width: 235px;
+    height: 262px;
+    border-radius: 4px;
+    background: #fff;
+    margin-top: 6px; }
+    .multiSelectDropdown .checkboxesDropdown .transparentCheckbox {
+      border: 1px solid #acacac;
+      border-radius: 4px;
+      margin-right: 8px; }
+
+.inputFieldChatPlaceholder::before {
+  content: attr(data-placeholder);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font: 14px 'UbuntuRegular', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  color: #A7A7A7;
+  cursor: text; }
+  .darkmode .inputFieldChatPlaceholder::before {
+    color: #6E6F70; }
+  .pureChat .inputFieldChatPlaceholder::before {
+    color: #F8F9FA; }
