@@ -5773,6 +5773,12 @@ print {
 .is-size-7 {
     font-size: .75rem !important
 }
+.cut {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
 
 @media screen and (max-width: 768px) {
     .is-size-1-mobile {
