@@ -54,6 +54,22 @@
 
 </div>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const grid = document.querySelector('.link-items'); // Ваш контейнер с Masonry
+    imagesLoaded(grid, function () {
+      new Masonry(grid, {
+        itemSelector: '.link', // Элементы сетки
+        percentPosition: true, // Проценты для адаптивности
+        columnWidth: '.link',  // Использовать ширину элемента
+        gutter: 10             // Отступы между элементами
+      });
+    });
+  });
+</script>
+
 <script> 
     document.addEventListener("DOMContentLoaded", function() {
         var adsBlock = document.querySelector(".ads");
