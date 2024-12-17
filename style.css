@@ -522,3 +522,16 @@ img {
 .grid-item--width2 {
     width: 400px;
 }
+
+
+@media screen and (max-width: 419px){
+    .link-items {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        height: 100% !important;
+    }
+    .grid-item {
+        position: relative !important;
+    }
+}
