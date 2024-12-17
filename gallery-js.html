@@ -58,13 +58,13 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const grid = document.querySelector('.link-items'); // Ваш контейнер с Masonry
+    const grid = document.querySelector('.link-items');
     imagesLoaded(grid, function () {
       new Masonry(grid, {
-        itemSelector: '.link', // Элементы сетки
-        percentPosition: true, // Проценты для адаптивности
-        columnWidth: '.link',  // Использовать ширину элемента
-        gutter: 10             // Отступы между элементами
+        itemSelector: '.link',
+        percentPosition: true,
+        columnWidth: '.link', 
+        gutter: 2             
       });
     });
   });
