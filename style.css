@@ -518,6 +518,7 @@ img {
 
 .grid-item {
     width: 200px;
+    min-height: 132px;
 }
 
 .grid-item--width2 {
