@@ -59,17 +59,32 @@
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const grid = document.querySelector('.link-items');
-    imagesLoaded(grid, function () {
-      new Masonry(grid, {
-        itemSelector: '.link',
-        percentPosition: true,
-        columnWidth: '.link', 
-        gutter: 0           
+document.addEventListener("DOMContentLoaded", function () {
+  const grid = document.querySelector('.link-items');
+  const mediaQuery = window.matchMedia('(min-width: 420px)'); // Устанавливаем условие для медиазапроса
+
+  // Функция для инициализации Masonry
+  function initializeMasonry() {
+    if (mediaQuery.matches) {
+      // Если ширина экрана больше или равна 420px, инициализируем Masonry
+      imagesLoaded(grid, function () {
+        new Masonry(grid, {
+          itemSelector: '.link',
+          percentPosition: true,
+          columnWidth: '.link', 
+          gutter: 0
+        });
       });
-    });
-  });
+    }
+  }
+
+  // Проверяем сразу после загрузки страницы
+  initializeMasonry();
+
+  // Слушаем изменения ширины экрана
+  mediaQuery.addEventListener('change', initializeMasonry);
+});
+
 </script>
 
 <script> 
