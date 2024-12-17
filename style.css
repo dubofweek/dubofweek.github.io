@@ -519,22 +519,28 @@ img {
     width: 400px;
 }
 
-
-@media only screen and (min-width: 320px) and (max-width: 478px) {
+@media only screen and (max-width: 463px) {
     .link-items {
         left: 25% !important;
     }
 }
 
-@media only screen and (min-width: 479px) and (max-width: 767px) {
+
+@media only screen and (min-width: 464px) and (max-width: 478px) {
+    .link-items {
+        left: 8% !important;
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 899px) {
     .link-items {
         left: 9% !important;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1439px) {
+@media only screen and (min-width: 900px) and (max-width: 1439px) {
     .link-items {
-        left: 6% !important;
+        left: 8% !important;
     }
 }
 
