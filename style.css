@@ -438,6 +438,10 @@ a:hover {
 img {
     /* width: 100%; */
 }
+.container-center {
+    display: flex;
+    justify-content: center;
+}
 
 .link-items {
     display: grid;
