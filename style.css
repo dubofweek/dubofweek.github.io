@@ -416,25 +416,5 @@ img {
 .grid-item { width: 200px; }
 .grid-item--width2 { width: 400px; }
 
-@media only screen and (max-width: 479px) {
-    .grid {
-      left: 5% !important;
-    }
-    }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .grid {
-    left: 3% !important;
-  }
-  }
-  @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-    .grid {
-    left: 2% !important;
-  }
-  }
-  @media only screen and (min-width: 1440px) {
-    .grid {
-    left: 1% !important;
-  }
-  }
 
 
