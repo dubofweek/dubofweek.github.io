@@ -57,18 +57,17 @@
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const grid = document.querySelector('.link-items');
-  imagesLoaded(grid, function () {
-    new Masonry(grid, {
-      itemSelector: '.link',
-      percentPosition: true,
-      columnWidth: '.link',
-      gutter: 0,
-      fitWidth: true // Центрирует контейнер по ширине
+  document.addEventListener("DOMContentLoaded", function () {
+    const grid = document.querySelector('.link-items');
+    imagesLoaded(grid, function () {
+      new Masonry(grid, {
+        itemSelector: '.link',
+        percentPosition: true,
+        columnWidth: '.link', 
+        gutter: 0           
+      });
     });
   });
-});
 </script>
 
 <script> 

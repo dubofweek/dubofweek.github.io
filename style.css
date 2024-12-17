@@ -440,14 +440,10 @@ img {
 }
 
 .link-items {
-    /* display: grid;
+    display: grid;
     gap: 2px;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    grid-template-rows: masonry; */
-
-    margin: 0 auto;
-    display: block;
-    width: auto;
+    grid-template-rows: masonry;
 }
 
 .link {
