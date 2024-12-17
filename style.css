@@ -347,6 +347,12 @@ img {
     gap: 2px;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     grid-template-rows: masonry;
+
+    margin: 0 auto;
+    width: 85% !important;
+    height: auto !important;
+    left: 0 !important;
+    top: 0 !important;
 }
 
 .link {
