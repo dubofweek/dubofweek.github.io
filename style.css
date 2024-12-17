@@ -351,9 +351,6 @@ img {
 
 .link {
     display: block;
-    width: 300px;
-    margin:0 auto 20px auto;
-    padding:20px;
 
 }
 
@@ -415,7 +412,8 @@ img {
     display: none;
 } */
 
-.grid-item { width: 300px; }
+
+.grid-item { width: 200px; }
 .grid-item--width2 { width: 400px; }
 
 
