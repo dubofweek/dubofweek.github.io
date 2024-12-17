@@ -344,7 +344,9 @@ img {
 
 .link-items {
     display: grid;
-    justify-content: center;
+    gap: 2px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-rows: masonry;
 }
 
 .link {
