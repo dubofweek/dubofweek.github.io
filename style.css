@@ -351,6 +351,9 @@ img {
 
 .link {
     display: block;
+    width:300px;
+    margin:0 auto 20px auto;
+    padding:20px;
 
 }
 
