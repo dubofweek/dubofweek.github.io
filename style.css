@@ -441,7 +441,6 @@ img {
 .container-center {
     display: flex;
     justify-content: center;
-    min-width: 800px;
 }
 
 .link-items {
