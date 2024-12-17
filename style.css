@@ -520,25 +520,25 @@ img {
 }
 
 @media only screen and (min-width: 479px) and (max-width: 767px) {
-    .av-masonry-entry {
+    .link-items {
         left: 24% !important;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    #top.home div#av-masonry-1 {
+    .link-items {
         left: 8% !important;
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-    #top.home div#av-masonry-1 {
+    .link-items {
         left: 8% !important;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    #top.home div#av-masonry-1 {
+    .link-items {
         left: 8% !important;
     }
 }
