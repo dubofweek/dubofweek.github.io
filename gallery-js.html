@@ -12,22 +12,22 @@
     	<div class="header">
 <br>     <h3>Aunt Judy's</h3>
     	</div>
-    <div class="link-items">
-      <div class="link"><a aria-label="01.jpg" href="01.jpg" target="_blank"><img loading="lazy" alt="" src="images/01_mmnl_69_szn.jpg"></a></div> 
-      <div class="link"><a aria-label="02.jpg" href="02.jpg" target="_blank"><img loading="lazy" alt="" src="images/02_mmnl_69_szn.jpg"></a></div>  
-      <div class="link"><a aria-label="03.jpg" href="03.jpg" target="_blank"><img loading="lazy" alt="" src="images/03_mmnl_69_szn.jpg"></a></div>  
-      <div class="link"><a aria-label="04.jpg" href="04.jpg" target="_blank"><img loading="lazy" alt="" src="images/04_mmnl_69_szn.jpg"></a></div>  
-      <div class="link"><a aria-label="05.jpg" href="05.jpg" target="_blank"><img loading="lazy" alt="" src="images/05_mmnl_69_szn.jpg"></a></div> 
-      <div class="link"><a aria-label="06.jpg" href="06.jpg" target="_blank"><img loading="lazy" alt="" src="images/06_mmnl_69_szn.jpg"></a></div> 
-      <div class="link"><a aria-label="07.jpg" href="07.jpg" target="_blank"><img loading="lazy" alt="" src="images/07_mmnl_69_szn.jpg"></a></div>  
-      <div class="link"><a aria-label="08.jpg" href="08.jpg" target="_blank"><img loading="lazy" alt="" src="images/08_mmnl_69_szn.jpg"></a></div>  
-      <div class="link"><a aria-label="09.jpg" href="09.jpg" target="_blank"><img loading="lazy" alt="" src="images/09_mmnl_69_szn.jpg"></a></div> 
-      <div class="link"><a aria-label="10.jpg" href="10.jpg" target="_blank"><img loading="lazy" alt="" src="images/10_mmnl_69_szn.jpg"></a></div> 
-      <div class="link"><a aria-label="11.jpg" href="11.jpg" target="_blank"><img loading="lazy" alt="" src="images/11_mmnl_69_szn.jpg"></a></div>  
-      <div class="link"><a aria-label="12.jpg" href="12.jpg" target="_blank"><img loading="lazy" alt="" src="images/12_mmnl_69_szn.jpg"></a></div>  
-      <div class="link"><a aria-label="13.jpg" href="13.jpg" target="_blank"><img loading="lazy" alt="" src="images/13_mmnl_69_szn.jpg"></a></div>  
-      <div class="link"><a aria-label="14.jpg" href="14.jpg" target="_blank"><img loading="lazy" alt="" src="images/14_mmnl_69_szn.jpg"></a></div>
-      <div class="link"><a aria-label="15.jpg" href="15.jpg" target="_blank"><img loading="lazy" alt="" src="images/15_mmnl_69_szn.jpg"></a></div>   
+    <div class="link-items grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+      <div class="link grid-item"><a aria-label="01.jpg" href="01.jpg" target="_blank"><img loading="lazy" alt="" src="images/01_mmnl_69_szn.jpg"></a></div> 
+      <div class="link grid-item"><a aria-label="02.jpg" href="02.jpg" target="_blank"><img loading="lazy" alt="" src="images/02_mmnl_69_szn.jpg"></a></div>  
+      <div class="link grid-item grid-item--width2"><a aria-label="03.jpg" href="03.jpg" target="_blank"><img loading="lazy" alt="" src="images/03_mmnl_69_szn.jpg"></a></div>  
+      <div class="link grid-item"><a aria-label="04.jpg" href="04.jpg" target="_blank"><img loading="lazy" alt="" src="images/04_mmnl_69_szn.jpg"></a></div>  
+      <div class="link grid-item"><a aria-label="05.jpg" href="05.jpg" target="_blank"><img loading="lazy" alt="" src="images/05_mmnl_69_szn.jpg"></a></div> 
+      <div class="link grid-item grid-item--width2"><a aria-label="06.jpg" href="06.jpg" target="_blank"><img loading="lazy" alt="" src="images/06_mmnl_69_szn.jpg"></a></div> 
+      <div class="link grid-item"><a aria-label="07.jpg" href="07.jpg" target="_blank"><img loading="lazy" alt="" src="images/07_mmnl_69_szn.jpg grid-item"></a></div>  
+      <div class="link grid-item"><a aria-label="08.jpg" href="08.jpg" target="_blank"><img loading="lazy" alt="" src="images/08_mmnl_69_szn.jpg"></a></div>  
+      <div class="link grid-item"><a aria-label="09.jpg" href="09.jpg" target="_blank"><img loading="lazy" alt="" src="images/09_mmnl_69_szn.jpg"></a></div> 
+      <div class="link grid-item grid-item--width2"><a aria-label="10.jpg" href="10.jpg" target="_blank"><img loading="lazy" alt="" src="images/10_mmnl_69_szn.jpg"></a></div> 
+      <div class="link grid-item"><a aria-label="11.jpg" href="11.jpg" target="_blank"><img loading="lazy" alt="" src="images/11_mmnl_69_szn.jpg"></a></div>  
+      <div class="link grid-item"><a aria-label="12.jpg" href="12.jpg" target="_blank"><img loading="lazy" alt="" src="images/12_mmnl_69_szn.jpg"></a></div>  
+      <div class="link grid-item"><a aria-label="13.jpg" href="13.jpg" target="_blank"><img loading="lazy" alt="" src="images/13_mmnl_69_szn.jpg"></a></div>  
+      <div class="link grid-item"><a aria-label="14.jpg" href="14.jpg" target="_blank"><img loading="lazy" alt="" src="images/14_mmnl_69_szn.jpg"></a></div>
+      <div class="link grid-item"><a aria-label="15.jpg" href="15.jpg" target="_blank"><img loading="lazy" alt="" src="images/15_mmnl_69_szn.jpg"></a></div>   
       </div>
 <br>
 <div class="item-list1" style="display: none;"> <a href="http://refer.ccbill.com/cgi-bin/clicks.cgi?CA=903762&PA=2607840&html=https://auntjudys.com">
@@ -53,6 +53,7 @@
       </div>
 
 </div>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script> 
     document.addEventListener("DOMContentLoaded", function() {
         var adsBlock = document.querySelector(".ads");
@@ -95,6 +96,18 @@
             window.addEventListener('scroll', addCodeOnScroll);
         }
     });
-</script>  
+    var elem = document.querySelector('.grid');
+    var msnry = new Masonry( elem, {
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 200
+    });
+
+    // element argument can be a selector string
+    //   for an individual element
+    var msnry = new Masonry( '.grid', {
+    // options
+    });
+</script>
 </body>
 </html>
