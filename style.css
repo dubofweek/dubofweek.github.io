@@ -524,7 +524,7 @@ img {
 .grid-item--width2 {
     width: 400px;
 }
-@media screen and (max-width: 412px) {
+/* @media screen and (max-width: 412px) {
     .link a {
         width: 100%;
         position: relative;
@@ -541,4 +541,4 @@ img {
         height: 100%;
     
     }
-}
+} */
