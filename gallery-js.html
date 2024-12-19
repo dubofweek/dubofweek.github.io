@@ -71,7 +71,19 @@
     });
   });
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const images = document.querySelectorAll('.link img');
 
+  images.forEach(img => {
+    img.onload = function () {
+      const aspectRatio = img.naturalHeight / img.naturalWidth;
+      const container = img.parentElement;
+      container.style.height = `${container.offsetWidth * aspectRatio}px`;
+    };
+  });
+});
+</script>
 <script> 
     document.addEventListener("DOMContentLoaded", function() {
         var adsBlock = document.querySelector(".ads");
