@@ -4,6 +4,7 @@ $(function() {
     $(window).on("resize", function() {
         if ($(window).width() <= 1024) {
             $(".header").removeClass("active");
+            $('body').removeClass("no-scroll");
         }
     });
 
@@ -21,9 +22,14 @@ function btnBurger() {
             $parent = $this.parents(".header");
 
         if ($parent.hasClass("active")) {
+            if ($(window).width() <= 1024) {
+                $('body').removeClass("no-scroll");
+            }
             $parent.removeClass("active");
         } else {
             if ($(window).width() <= 1024) {
+                $('body').addClass("no-scroll");
+
                 $("html, body").animate({ scrollTop: 0 }, "fast");
             }
             $parent.addClass("active");
