@@ -1,0 +1,150 @@
+.main-contant__wrap {
+    padding: 37px 0 50px 0;
+}
+
+.container {
+    padding: 0px 10px 0px 10px;
+}
+
+.video-single__wrap {
+    display: flex;
+    gap: 24px;
+}
+.video-btn-show-all{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.video-single__sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-single__sidebar-item img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.save {
+    padding: 13px 12px 13px 12px;
+    height: 50px;
+    width: 50px;
+
+}
+
+.save img {
+    width: 24px;
+    height: 24px;
+}
+
+.video-single__title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.video-single__tags-wrap-items {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.video-single__categories-wrap h4 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.video-single__tags-wrap {
+    margin-top: 12px;
+}
+
+.video-single {
+    position: relative;
+}
+
+.video-single__tags-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-single-uploaded {
+    font-weight: 400;
+    color: var(--color-light);
+    font-size: 14px;
+    padding: 24px 0 50px 0;
+}
+
+
+.video-single__related {
+    padding-bottom: 24px;
+}
+
+.video-single_tablet-ads {
+    width: 100%;
+    display: none;
+}
+
+.video-single__title h2 {
+    padding-right: 20px;
+    padding-top: 8.5px;
+}
+
+.video-single h2 {
+    padding-top: 0;
+}
+
+.circle-blur-1 {
+    top: 207px;
+    left: -815px;
+}
+
+@media (max-width: 1400px) {
+    .video-single__sidebar {
+        display: none;
+    }
+
+    .video-single,
+    .video-single__main-img {
+        width: 100%;
+    }
+
+    .second-main-lighter {
+        position: absolute;
+        width: 783px;
+        height: 540px;
+        top: 1203px;
+        left: -70px;
+        border-radius: 50%;
+        background: rgba(82, 114, 251, 0.15);
+        box-shadow: 0 0 465px 200px rgba(82, 114, 251, 0.15);
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    .video-single_tablet-ads {
+        display: block;
+    }
+
+    .video-single__title {
+        margin-top: 18px;
+    }
+
+    .main-contant__wrap {
+        padding: 8px 0 50px 0;
+    }
+
+    .video-single__main-img {
+        margin-left: -20px;
+        margin-right: -20px;
+        width: calc(100% + 40px);
+    }
+}
+
+@media (max-width: 880px) {
+    .video-single__tags-wrap {
+        flex-direction: column;
+        gap: 12px;
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/OSPanel/domains/PornOcean status)",
+      "Bash(gh auth:*)",
+      "Bash(git:*)"
+    ]
+  }
+}

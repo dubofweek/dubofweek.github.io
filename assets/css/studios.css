@@ -1,0 +1,101 @@
+.studios-main__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    row-gap: 24px;
+}
+
+.studio-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.studio-card__thumb {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16 / 9;
+    border-radius: 14px;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(41, 43, 55, 0.3) 0%, rgba(118, 122, 157, 0.3) 100%);
+}
+
+.studio-card__thumb img {
+
+    display: block;
+    border-radius: 14px;
+    transition: transform 0.3s;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+    .studio-card:hover .studio-card__thumb img {
+        transform: scale(1.05);
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .studio-card:active .studio-card__thumb img {
+        transform: scale(1.05);
+    }
+}
+
+.card-views__studio {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding: 2.17px 3.67px;
+
+}
+
+.studio-card__count {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    padding: 4px 8px;
+    font-size: 13px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.studio-card__count::before {
+    content: '';
+    width: 16px;
+    height: 12px;
+    background: url('../img/eye.svg') no-repeat center / contain;
+}
+
+.studio-card__title {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--color-light);
+    line-height: 1.4;
+}
+
+
+.studios-main__wrapper {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media (max-width: 1100px) {
+    .studios-main__wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .studios-main__wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+}

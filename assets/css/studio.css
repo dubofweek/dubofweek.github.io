@@ -1,0 +1,173 @@
+.studio-fav-btn {
+    width: initial;
+    margin-top: 24px;
+    box-shadow: none;
+}
+
+.studio-main__container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+        "image   name"
+        "image   geninfo"
+        "image   stats"
+        "image   desc"
+        "image   btn";
+    gap: 0 48px;
+    margin-bottom: 50px;
+}
+
+.model-name-wrap {
+    grid-area: name;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: end;
+}
+
+.model-name-wrap h2 {
+    color: var(--color-light);
+}
+
+.model-image-left {
+    grid-area: image;
+}
+
+.model-image-left img {
+    height: 199px;
+    border-radius: 18px;
+    display: block;
+}
+
+.gen-info-main-wrap {
+    grid-area: geninfo;
+}
+
+.studio-main-info {
+    padding: 0 0 12px 0;
+    flex-wrap: wrap;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0;
+    flex-wrap: wrap;
+}
+
+.profile-stat {
+    padding: 6px 14px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    margin: 0;
+    min-width: 0;
+}
+
+.profile-stat__label {
+    padding: 0 4px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1;
+    display: block;
+    width: fit-content;
+}
+
+.profile-stat__value {
+    display: block;
+    margin-left: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.studio-desc {
+    grid-area: desc;
+    color: var(--color-grey);
+    font-size: 14px;
+    font-weight: 400;
+}
+.mod-main-info{
+        padding: 0 0 12px 0;
+        flex-wrap: wrap;
+}
+.left-image-studio img{
+    height: 100px;
+}
+
+.studio-fav-btn {
+      grid-area: btn;
+    width: fit-content;
+    margin-top: 24px;
+    box-shadow: none;
+}
+.separator-data{
+    display: block;
+}
+@media (max-width: 768px) {
+    .studio-main__container {
+        grid-template-columns: auto 1fr;
+        grid-template-areas:
+            "name    name"
+            "image   stats"
+            "geninfo geninfo"
+            "desc    desc"
+            "btn     btn";
+        gap: 0 16px;
+    }
+
+    .model-name-wrap {
+        margin-bottom: 8px;
+    }
+
+    .model-image-left img {
+        height: 180px;
+    }
+
+    .profile-stats {
+      margin: 0;
+        align-content: start;
+        
+    }
+
+      .gen-info-main-wrap {
+        margin: 30px 0 30px 0;
+        padding: 0;
+    }
+
+    .studio-fav-btn {
+        width: 100%;
+    }
+
+    .circle-blur-2 {
+        position: absolute;
+        width: 783px;
+        height: 540px;
+        top: 256px;
+        filter: blur(322.6px);
+        pointer-events: none;
+        right: 357px;
+        
+        border-radius: 50%;
+        background: rgba(82, 114, 251, 0.15);
+        box-shadow: 0 0 465px 200px rgba(82, 114, 251, 0.01);
+        z-index: -1;
+    }.right-studio-image-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mod-main-info{
+        padding: 0 0 0px 0;
+        margin-top: 0;
+        margin-bottom: 16px;
+}
+
+    .model-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}

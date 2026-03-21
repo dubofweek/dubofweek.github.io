@@ -1,0 +1,255 @@
+
+.videos-main__wrapper{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.profile-main__container{
+    display: flex;
+    gap: 42px;
+}
+.friend-blur{
+position: absolute;
+    width: 100%;
+    height: 75px;
+    bottom: -1px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    z-index: 0;
+    backdrop-filter: blur(35.5px);
+  -webkit-backdrop-filter: blur(35.5px);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+
+  
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
+}
+.form__btn{
+  box-shadow: none;
+}
+.friend-remover{
+  left: initial;
+  right: 10px;
+  top: 10px;
+}
+
+.user-dark__btn{
+  background: var(--color-main);
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+
+
+.user-dark__first{
+  margin-top: 0;
+}
+.user-info__wrap{
+  width: 100%;
+
+}
+.friends-search-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.friends-toggle{
+flex: 0;
+}
+.friends-search-bar .search-submit{
+background: none;
+
+}
+.friends-search-bar{
+  margin: 0;
+  flex: 0.5;
+  width: 100%;
+  max-width: initial;
+}
+
+.friend-card{
+  display: block;
+position: relative;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}
+
+@media (hover: hover) and (pointer: fine) {
+.message_tel-wrap:hover {
+  background: var(--color-blue);
+}
+}
+@media (hover: none) and (pointer: coarse) {
+.message_tel-wrap:active {
+  background: var(--color-blue);
+}
+}
+
+.add-friend__wrap{
+     position: absolute;
+    z-index: 2;
+    bottom: -14px;
+    right: 41px;
+    width: 36px;
+    height: 36px;
+  border-radius: 50%;
+  background: var(--color-main); 
+  display: flex;
+  align-items: center;
+  outline: 5px solid #000;
+  justify-content: center;
+}
+.friend-info-wrap{
+    position: absolute;
+    z-index: 2;
+    bottom: 15px;
+    left: 16px;
+}
+.friend-dot{
+z-index: 2;
+    top: 0px;
+    left: 0px;
+    outline: 6px solid #000;
+}
+.friend-info-wrap h3{
+  font-size: 15px;
+  font-weight: 600;
+}
+.friend-card img{
+ position: absolute;
+    z-index: 0;
+    height: 100%;
+    border-radius: 28px;
+    object-fit: cover;
+    width: 100%;
+}
+.left-gender-wrap{
+  width: 100%;
+}
+.search-member-btn{
+  width: 100%;
+  background: var(--color-blue);
+  justify-content: center;
+}
+.range-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 12px;
+ padding: 0 18px 0 18px ;
+}
+.range-header label{
+  margin-left: 0;
+}
+.range-value {
+  font-size: 14px;
+  color: #fff;
+}
+
+.range-slider {
+  position: relative;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+}
+
+.range-slider__input {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 0;
+  left: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  pointer-events: none;
+}
+
+.range-slider__input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-blue, #5B6EF5);
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.range-slider__input::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-blue, #5B6EF5);
+  pointer-events: all;
+  cursor: pointer;
+  border: none;
+}
+.member-padding-sidebar{
+  margin-bottom: 30px;
+}
+.clear-filters{
+  color: var(--color-blue);
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.friend-cards-main{
+  margin-top: 24px;
+  display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+    row-gap: 48px;
+}
+.members-toggle{
+  width: 100%;
+}
+.friend-info-wrap span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.user-info__wrap h2{
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 0;
+}
+.user-form__wrap{
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+
+
+
+
+@media (max-width: 1500px) {
+    .friend-cards-main {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1200px) {
+     .friend-cards-main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+  .friend-cards-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+ .friend-info__wrap {
+  width: 100%;
+ }
+ .friends-search-bar{
+  display: flex !important;
+ }
+ .friends-search-bar{
+  flex: 1;
+ }
+ .friends-search-wrap{
+  gap: 17px;
+ }
+}
